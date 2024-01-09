@@ -1,5 +1,5 @@
-/* Generated code for Python module 'keyboard._nixcommon'
- * created by Nuitka version 1.8.4
+/* Generated code for Python module 'keyboard$_nixcommon'
+ * created by Nuitka version 1.9.7
  *
  * This code is in part copyright 2023 Kay Hayen.
  *
@@ -8001,7 +8001,7 @@ extern PyTypeObject Nuitka_Loader_Type;
 // in another process, useful for multiprocessing extensions like dill
 extern void registerDillPluginTables(PyThreadState *tstate, char const *module_name, PyMethodDef *reduce_compiled_function, PyMethodDef *create_compiled_function);
 
-function_impl_code functable_keyboard$_nixcommon[] = {
+static function_impl_code const function_table_keyboard$_nixcommon[] = {
     impl_keyboard$_nixcommon$$$function__3_input_file$$$function__1_try_close,
     impl_keyboard$_nixcommon$$$function__7___init__$$$function__1_start_reading,
     impl_keyboard$_nixcommon$$$function__1_make_uinput,
@@ -8020,42 +8020,31 @@ function_impl_code functable_keyboard$_nixcommon[] = {
     NULL
 };
 
-static char const *_reduce_compiled_function_argnames[] = {
-    "func",
-    NULL
-};
-
 static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObject *kwds) {
     PyObject *func;
 
-    if (!PyArg_ParseTupleAndKeywords(args, kwds, "O:reduce_compiled_function", (char **)_reduce_compiled_function_argnames, &func, NULL)) {
+    if (!PyArg_ParseTuple(args, "O:reduce_compiled_function", &func, NULL)) {
         return NULL;
     }
 
     if (Nuitka_Function_Check(func) == false) {
         PyThreadState *tstate = PyThreadState_GET();
 
-        SET_CURRENT_EXCEPTION_TYPE0_STR_STATE(tstate, PyExc_TypeError, "not a compiled function");
+        SET_CURRENT_EXCEPTION_TYPE0_STR(tstate, PyExc_TypeError, "not a compiled function");
         return NULL;
     }
 
     struct Nuitka_FunctionObject *function = (struct Nuitka_FunctionObject *)func;
 
-    function_impl_code *current = functable_keyboard$_nixcommon;
-    int offset = 0;
+    int offset = Nuitka_Function_GetFunctionCodeIndex(function, function_table_keyboard$_nixcommon);
 
-    while (*current != NULL) {
-        if (*current == function->m_c_code) {
-            break;
-        }
-
-        current += 1;
-        offset += 1;
-    }
-
-    if (*current == NULL) {
+    if (unlikely(offset == -1)) {
         PyThreadState *tstate = PyThreadState_GET();
-
+#if 0
+        PRINT_STRING("Looking for:");
+        PRINT_ITEM(func);
+        PRINT_NEW_LINE();
+#endif
         SET_CURRENT_EXCEPTION_TYPE0_STR(tstate, PyExc_TypeError, "Cannot find compiled function in module.");
         return NULL;
     }
@@ -8070,11 +8059,30 @@ static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObj
 
     CHECK_OBJECT_DEEP(code_object_desc);
 
-    PyObject *result = MAKE_TUPLE_EMPTY(4);
+
+    PyObject *result = MAKE_TUPLE_EMPTY(6);
     PyTuple_SET_ITEM(result, 0, PyLong_FromLong(offset));
     PyTuple_SET_ITEM(result, 1, code_object_desc);
     PyTuple_SET_ITEM0(result, 2, function->m_defaults);
-    PyTuple_SET_ITEM0(result, 3, function->m_doc != NULL ? function->m_doc : Py_None);
+#if PYTHON_VERSION >= 0x300
+    PyTuple_SET_ITEM0(result, 3, function->m_kwdefaults ? function->m_kwdefaults : Py_None);
+#else
+    PyTuple_SET_ITEM0(result, 3, Py_None);
+#endif
+    PyTuple_SET_ITEM0(result, 4, function->m_doc != NULL ? function->m_doc : Py_None);
+
+    if (offset == -5) {
+        CHECK_OBJECT(function->m_constant_return_value);
+        PyTuple_SET_ITEM0(result, 5, function->m_constant_return_value);
+    } else {
+        PyTuple_SET_ITEM0(result, 5, Py_None);
+    }
+
+#if PYTHON_VERSION >= 0x300
+    PyTuple_SET_ITEM0(result, 6, function->m_qualname);
+#else
+    PyTuple_SET_ITEM0(result, 6, Py_None);
+#endif
 
     CHECK_OBJECT_DEEP(result);
 
@@ -8082,92 +8090,48 @@ static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObj
 }
 
 static PyMethodDef _method_def_reduce_compiled_function = {"reduce_compiled_function", (PyCFunction)_reduce_compiled_function,
-                                                           METH_VARARGS | METH_KEYWORDS, NULL};
-
-static char const *_create_compiled_function_argnames[] = {
-    "func",
-    "code_object_desc",
-    "defaults",
-    "doc",
-    NULL
-};
+                                                           METH_VARARGS, NULL};
 
 
 static PyObject *_create_compiled_function(PyObject *self, PyObject *args, PyObject *kwds) {
     CHECK_OBJECT_DEEP(args);
 
-    PyObject *func;
+    PyObject *function_index;
     PyObject *code_object_desc;
     PyObject *defaults;
+    PyObject *kw_defaults;
     PyObject *doc;
+    PyObject *constant_return_value;
+    PyObject *function_qualname;
 
-    if (!PyArg_ParseTupleAndKeywords(args, kwds, "OOOO:create_compiled_function", (char **)_create_compiled_function_argnames, &func, &code_object_desc, &defaults, &doc, NULL)) {
+    if (!PyArg_ParseTuple(args, "OOOOOO:create_compiled_function", &function_index, &code_object_desc, &defaults, &kw_defaults, &doc, &constant_return_value, &function_qualname, NULL)) {
         return NULL;
     }
 
-    int offset = PyLong_AsLong(func);
-
-    if (offset == -1 && HAS_ERROR_OCCURRED(tstate)) {
-        return NULL;
-    }
-
-    if (offset > sizeof(functable_keyboard$_nixcommon) || offset < 0) {
-        SET_CURRENT_EXCEPTION_TYPE0_STR_STATE(tstate, PyExc_TypeError, "Wrong offset for compiled function.");
-        return NULL;
-    }
-
-    PyObject *filename = PyTuple_GET_ITEM(code_object_desc, 0);
-    PyObject *function_name = PyTuple_GET_ITEM(code_object_desc, 1);
-    PyObject *line = PyTuple_GET_ITEM(code_object_desc, 2);
-    int line_int = PyLong_AsLong(line);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-
-    PyObject *argnames = PyTuple_GET_ITEM(code_object_desc, 3);
-    PyObject *arg_count = PyTuple_GET_ITEM(code_object_desc, 4);
-    int arg_count_int = PyLong_AsLong(arg_count);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-    PyObject *flags = PyTuple_GET_ITEM(code_object_desc, 5);
-    int flags_int = PyLong_AsLong(flags);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-
-    PyCodeObject *code_object = MAKE_CODE_OBJECT(
-        filename,
-        line_int,
-        flags_int,
-        function_name,
-        function_name, // TODO: function_qualname
-        argnames,
-        NULL, // freevars
-        arg_count_int,
-        0, // TODO: Missing kw_only_count
-        0 // TODO: Missing pos_only_count
-    );
-
-    struct Nuitka_FunctionObject *result = Nuitka_Function_New(
-        functable_keyboard$_nixcommon[offset],
-        code_object->co_name,
 #if PYTHON_VERSION >= 0x300
-        NULL, // TODO: Not transferring qualname yet
+    if (kw_defaults == Py_None) {
+        kw_defaults = NULL;
+    }
 #endif
-        code_object,
-        defaults,
-#if PYTHON_VERSION >= 0x300
-        NULL, // kwdefaults are done on the outside currently
-        NULL, // TODO: Not transferring annotations
-#endif
+
+    return (PyObject *)Nuitka_Function_CreateFunctionViaCodeIndex(
         module_keyboard$_nixcommon,
+        function_qualname,
+        function_index,
+        code_object_desc,
+        constant_return_value,
+        defaults,
+        kw_defaults,
         doc,
-        NULL,
-        0
+        function_table_keyboard$_nixcommon,
+        sizeof(function_table_keyboard$_nixcommon) / sizeof(function_impl_code)
     );
-
-    return (PyObject *)result;
 }
 
 static PyMethodDef _method_def_create_compiled_function = {
     "create_compiled_function",
     (PyCFunction)_create_compiled_function,
-    METH_VARARGS | METH_KEYWORDS, NULL
+    METH_VARARGS, NULL
 };
 
 
@@ -8176,7 +8140,7 @@ static PyMethodDef _method_def_create_compiled_function = {
 // Internal entry point for module code.
 PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module, struct Nuitka_MetaPathBasedLoaderEntry const *loader_entry) {
     // Report entry to PGO.
-    PGO_onModuleEntered("keyboard._nixcommon");
+    PGO_onModuleEntered("keyboard$_nixcommon");
 
     // Store the module for future use.
     module_keyboard$_nixcommon = module;
@@ -8210,7 +8174,7 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
 
         // Enable meta path based loader if not already done.
 #ifdef _NUITKA_TRACE
-        PRINT_STRING("keyboard._nixcommon: Calling setupMetaPathBasedLoader().\n");
+        PRINT_STRING("keyboard$_nixcommon: Calling setupMetaPathBasedLoader().\n");
 #endif
         setupMetaPathBasedLoader(tstate);
 
@@ -8221,7 +8185,7 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
 #endif
 
         /* The constants only used by this module are created now. */
-        NUITKA_PRINT_TRACE("keyboard._nixcommon: Calling createModuleConstants().\n");
+        NUITKA_PRINT_TRACE("keyboard$_nixcommon: Calling createModuleConstants().\n");
         createModuleConstants(tstate);
 
         createModuleCodeObjects();
@@ -8229,12 +8193,29 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
         init_done = true;
     }
 
+#if defined(_NUITKA_MODULE) && 0
+    PyObject *pre_load = IMPORT_EMBEDDED_MODULE(tstate, "keyboard._nixcommon" "-preLoad");
+    if (pre_load == NULL) {
+        return NULL;
+    }
+#endif
+
     // PRINT_STRING("in initkeyboard$_nixcommon\n");
 
     moduledict_keyboard$_nixcommon = MODULE_DICT(module_keyboard$_nixcommon);
 
 #ifdef _NUITKA_PLUGIN_DILL_ENABLED
-    registerDillPluginTables(tstate, loader_entry->name, &_method_def_reduce_compiled_function, &_method_def_create_compiled_function);
+    {
+        char const *module_name_c;
+        if (loader_entry != NULL) {
+            module_name_c = loader_entry->name;
+        } else {
+            PyObject *module_name = GET_STRING_DICT_VALUE(moduledict_keyboard$_nixcommon, (Nuitka_StringObject *)const_str_plain___name__);
+            module_name_c = Nuitka_String_AsString(module_name);
+        }
+
+        registerDillPluginTables(tstate, module_name_c, &_method_def_reduce_compiled_function, &_method_def_create_compiled_function);
+    }
 #endif
 
     // Set "__compiled__" to what version information we have.
@@ -8519,7 +8500,16 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
         tmp_level_value_2 = mod_consts[3];
         frame_b195dd2800ae6ffabaf4548868d8910c->m_frame.f_lineno = 4;
         tmp_assign_source_6 = IMPORT_MODULE5(tstate, tmp_name_value_2, tmp_globals_arg_value_2, tmp_locals_arg_value_2, tmp_fromlist_value_2, tmp_level_value_2);
-        assert(!(tmp_assign_source_6 == NULL));
+        if (tmp_assign_source_6 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 4;
+
+            goto frame_exception_exit_1;
+        }
         UPDATE_STRING_DICT1(moduledict_keyboard$_nixcommon, (Nuitka_StringObject *)mod_consts[29], tmp_assign_source_6);
     }
     {
@@ -8537,7 +8527,16 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
         tmp_level_value_3 = mod_consts[3];
         frame_b195dd2800ae6ffabaf4548868d8910c->m_frame.f_lineno = 5;
         tmp_import_name_from_1 = IMPORT_MODULE5(tstate, tmp_name_value_3, tmp_globals_arg_value_3, tmp_locals_arg_value_3, tmp_fromlist_value_3, tmp_level_value_3);
-        assert(!(tmp_import_name_from_1 == NULL));
+        if (tmp_import_name_from_1 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 5;
+
+            goto frame_exception_exit_1;
+        }
         if (PyModule_Check(tmp_import_name_from_1)) {
             tmp_assign_source_7 = IMPORT_NAME_OR_MODULE(
                 tstate,
@@ -8551,7 +8550,16 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
         }
 
         Py_DECREF(tmp_import_name_from_1);
-        assert(!(tmp_assign_source_7 == NULL));
+        if (tmp_assign_source_7 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 5;
+
+            goto frame_exception_exit_1;
+        }
         UPDATE_STRING_DICT1(moduledict_keyboard$_nixcommon, (Nuitka_StringObject *)mod_consts[40], tmp_assign_source_7);
     }
     {
@@ -10442,7 +10450,7 @@ PyObject *modulecode_keyboard$_nixcommon(PyThreadState *tstate, PyObject *module
     }
 
     // Report to PGO about leaving the module without error.
-    PGO_onModuleExit("keyboard._nixcommon", false);
+    PGO_onModuleExit("keyboard$_nixcommon", false);
 
     Py_INCREF(module_keyboard$_nixcommon);
     return module_keyboard$_nixcommon;

@@ -1,0 +1,1156 @@
+[2024-01-08T17:31:37.628770 6084 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.628958 6084 ] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.629019 6084 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) base_dir = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) compiler = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) compression = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) debug = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) disable = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) file_clone = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) hard_link = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) max_files = 0
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) namespace = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) path = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) read_only = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) recache = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) remote_only = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) reshare = false
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) stats = true
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) stats_log = 
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.629019 6084 ] Config: (default) umask = 
+[2024-01-08T17:31:37.629257 6084 ] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2024-01-08T17:31:37.637033 27812] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.637343 27812] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.637394 27812] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.637394 27812] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) base_dir = 
+[2024-01-08T17:31:37.637394 27812] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.637394 27812] Config: (default) compiler = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.637394 27812] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.637394 27812] Config: (default) compression = true
+[2024-01-08T17:31:37.637394 27812] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.637394 27812] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) debug = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.637394 27812] Config: (default) disable = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) file_clone = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) hard_link = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.637394 27812] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.637394 27812] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.637394 27812] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.637394 27812] Config: (default) max_files = 0
+[2024-01-08T17:31:37.637394 27812] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.637394 27812] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.637394 27812] Config: (default) namespace = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) path = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) read_only = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) recache = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) remote_only = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) reshare = false
+[2024-01-08T17:31:37.637394 27812] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.637394 27812] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.637394 27812] Config: (default) stats = true
+[2024-01-08T17:31:37.637394 27812] Config: (default) stats_log = 
+[2024-01-08T17:31:37.637394 27812] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.637394 27812] Config: (default) umask = 
+[2024-01-08T17:31:37.637690 27812] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\[2024-01-08T17:31:37.637782 30224] === CCACHE 4.8.2 STARTED =========================================
+ON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2024-01-08T17:31:37.637938 30224] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.637982 30224] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.637982 30224] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) base_dir = 
+[2024-01-08T17:31:37.637982 30224] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.637982 30224] Config: (default) compiler = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.637982 30224] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.637982 30224] Config: (default) compression = true
+[2024-01-08T17:31:37.637982 30224] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.637982 30224] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) debug = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.637982 30224] Config: (default) disable = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) file_clone = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) hard_link = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.637982 30224] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.637982 30224] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.637982 30224] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.637982 30224] Config: (default) max_files = 0
+[2024-01-08T17:31:37.637982 30224] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.637982 30224] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.637982 30224] Config: (default) namespace = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) path = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) read_only = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) recache = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) remote_only = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) reshare = false
+[2024-01-08T17:31:37.637982 30224] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.637982 30224] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.637982 30224] Config: (default) stats = true
+[2024-01-08T17:31:37.637982 30224] Config: (default) stats_log = 
+[2024-01-08T17:31:37.637982 30224] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.637982 30224] Config: (default) umask = 
+[2024-01-08T17:31:37.638217 30224] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2024-01-08T17:31:37.639342 31152] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.639470 31152] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.639506 31152] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.639506 31152] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) base_dir = 
+[2024-01-08T17:31:37.639506 31152] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.639506 31152] Config: (default) compiler = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.639506 31152] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.639506 31152] Config: (default) compression = true
+[2024-01-08T17:31:37.639506 31152] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.639506 31152] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) debug = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.639506 31152] Config: (default) disable = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) file_clone = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) hard_link = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.639506 31152] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.639506 31152] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.639506 31152] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.639506 31152] Config: (default) max_files = 0
+[2024-01-08T17:31:37.639506 31152] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.639506 31152] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.639506 31152] Config: (default) namespace = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) path = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) read_only = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) recache = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) remote_only = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) reshare = false
+[2024-01-08T17:31:37.639506 31152] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.639506 31152] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.639506 31152] Config: (default) stats = true
+[2024-01-08T17:31:37.639506 31152] Config: (default) stats_log = 
+[2024-01-08T17:31:37.639506 31152] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.639506 31152] Config: (default) umask = 
+[2024-01-08T17:31:37.639714 31152] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2024-01-08T17:31:37.642878 6084 ] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.642935 6084 ] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.642991 6084 ] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.643035 6084 ] Compiler type: gcc
+[2024-01-08T17:31:37.644068 6084 ] Source file: __constants.c
+[2024-01-08T17:31:37.644122 6084 ] Object file: __constants.o
+[2024-01-08T17:31:37.644661 6084 ] Trying direct lookup
+[2024-01-08T17:31:37.645150 6084 ] Manifest key: a623nus7rsljdhi2jnnlhijgjghkqn9ou
+[2024-01-08T17:31:37.646602 6084 ] Retrieved a623nus7rsljdhi2jnnlhijgjghkqn9ou from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/23nus7rsljdhi2jnnlhijgjghkqn9ouM)
+[2024-01-08T17:31:37.651943 30224] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.652008 27812] Hostname: DESKTOP-SH8UNVS
+/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.652157 27812] Working directory: C:/Users/K_lift/build/FastSearch.build
+\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.652191 30224] Compiler type: gcc
+[2024-01-08T17:31:37.652208 27812] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.652239 27812] Compiler type: gcc
+[2024-01-08T17:31:37.652932 31152] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.652980 31152] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.653025 31152] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.653144 31152] Compiler type: gcc
+[2024-01-08T17:31:37.653212 27812] Source file: __loader.c
+[2024-01-08T17:31:37.653258 27812] Object file: __loader.o
+[2024-01-08T17:31:37.653328 30224] Source file: __helpers.c
+[2024-01-08T17:31:37.653371 30224] Object file: __helpers.o
+[2024-01-08T17:31:37.653872 27812] Trying direct lookup
+[2024-01-08T17:31:37.654013 30224] Trying direct lookup
+[2024-01-08T17:31:37.654180 31152] Source file: module.__main__.c
+[2024-01-08T17:31:37.654221 31152] Object file: module.__main__.o
+[2024-01-08T17:31:37.654529 30224] Manifest key: f64b1mgro421pombmpb3vbt0rcep932lg
+[2024-01-08T17:31:37.654621 27812] Manifest key: fffekadgio57f0spqim5phpo3g328cepg
+[2024-01-08T17:31:37.654735 31152] Trying direct lookup
+[2024-01-08T17:31:37.655541 27812] Retrieved fffekadgio57f0spqim5phpo3g328cepg from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/f/fekadgio57f0spqim5phpo3g328cepgM)
+[2024-01-08T17:31:37.655815 30224] Retrieved f64b1mgro421pombmpb3vbt0rcep932lg from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/6/4b1mgro421pombmpb3vbt0rcep932lgM)
+[2024-01-08T17:31:37.657380 31152] Manifest key: 2d74lbifsmoulq0ecdc23v1d930mqh37g
+[2024-01-08T17:31:37.658241 31152] No 2d74lbifsmoulq0ecdc23v1d930mqh37g in local storage
+[2024-01-08T17:31:37.660295 31152] Running preprocessor
+[2024-01-08T17:31:37.661158 31152] Executing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src -E -o C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/cpp_stdout.tmp.X8nvdX.i module.__main__.c
+[2024-01-08T17:31:37.685379 22764] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.685492 22764] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.685529 22764] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.685529 22764] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) base_dir = 
+[2024-01-08T17:31:37.685529 22764] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.685529 22764] Config: (default) compiler = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.685529 22764] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.685529 22764] Config: (default) compression = true
+[2024-01-08T17:31:37.685529 22764] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.685529 22764] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) debug = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.685529 22764] Config: (default) disable = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) file_clone = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) hard_link = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.685529 22764] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.685529 22764] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.685529 22764] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.685529 22764] Config: (default) max_files = 0
+[2024-01-08T17:31:37.685529 22764] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.685529 22764] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.685529 22764] Config: (default) namespace = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) path = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) read_only = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) recache = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) remote_only = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) reshare = false
+[2024-01-08T17:31:37.685529 22764] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.685529 22764] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.685529 22764] Config: (default) stats = true
+[2024-01-08T17:31:37.685529 22764] Config: (default) stats_log = 
+[2024-01-08T17:31:37.685529 22764] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.685529 22764] Config: (default) umask = 
+[2024-01-08T17:31:37.685731 22764] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._canonical_names.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._canonical_names.c
+[2024-01-08T17:31:37.702025 22764] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.702082 22764] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.702124 22764] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.702156 22764] Compiler type: gcc
+[2024-01-08T17:31:37.703074 22764] Source file: module.keyboard._canonical_names.c
+[2024-01-08T17:31:37.703115 22764] Object file: module.keyboard._canonical_names.o
+[2024-01-08T17:31:37.704179 22764] Trying direct lookup
+[2024-01-08T17:31:37.705258 22764] Manifest key: 3d0doh91n4sivpmjp5mfl0nr9idsrfj5k
+[2024-01-08T17:31:37.707080 22764] Retrieved 3d0doh91n4sivpmjp5mfl0nr9idsrfj5k from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/d/0doh91n4sivpmjp5mfl0nr9idsrfj5kM)
+[2024-01-08T17:31:37.740814 27812] Got result key from manifest
+[2024-01-08T17:31:37.740905 27812] Result key: 2e8ar4ogv0h7sjuefbjctr5gsskhckpbs
+[2024-01-08T17:31:37.742217 27812] Retrieved 2e8ar4ogv0h7sjuefbjctr5gsskhckpbs from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/8ar4ogv0h7sjuefbjctr5gsskhckpbsR)
+[2024-01-08T17:31:37.742785 27812] Reading embedded entry #0 .o (25937 bytes)
+[2024-01-08T17:31:37.742829 27812] Writing to __loader.o
+[2024-01-08T17:31:37.744390 27812] Succeeded getting cached result
+[2024-01-08T17:31:37.744495 27812] Result: direct_cache_hit
+[2024-01-08T17:31:37.744529 27812] Result: local_storage_hit
+[2024-01-08T17:31:37.744557 27812] Result: local_storage_read_hit
+[2024-01-08T17:31:37.744584 27812] Result: local_storage_read_hit
+[2024-01-08T17:31:37.744643 27812] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-08T17:31:37.746465 27812] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-08T17:31:37.754723 27812] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-08T17:31:37.754914 27812] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/stats.lock
+[2024-01-08T17:31:37.762104 14056] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.762218 14056] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.762254 14056] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.762254 14056] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) base_dir = 
+[2024-01-08T17:31:37.762254 14056] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.762254 14056] Config: (default) compiler = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.762254 14056] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.762254 14056] Config: (default) compression = true
+[2024-01-08T17:31:37.762254 14056] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.762254 14056] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) debug = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.762254 14056] Config: (default) disable = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) file_clone = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) hard_link = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.762254 14056] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.762254 14056] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.762254 14056] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.762254 14056] Config: (default) max_files = 0
+[2024-01-08T17:31:37.762254 14056] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.762254 14056] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.762254 14056] Config: (default) namespace = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) path = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) read_only = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) recache = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) remote_only = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) reshare = false
+[2024-01-08T17:31:37.762254 14056] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.762254 14056] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.762254 14056] Config: (default) stats = true
+[2024-01-08T17:31:37.762254 14056] Config: (default) stats_log = 
+[2024-01-08T17:31:37.762254 14056] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.762254 14056] Config: (default) umask = 
+[2024-01-08T17:31:37.762433 14056] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._darwinkeyboard.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._darwinkeyboard.c
+[2024-01-08T17:31:37.776030 14056] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.776091 14056] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.776133 14056] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.776166 14056] Compiler type: gcc
+[2024-01-08T17:31:37.777164 14056] Source file: module.keyboard._darwinkeyboard.c
+[2024-01-08T17:31:37.777212 14056] Object file: module.keyboard._darwinkeyboard.o
+[2024-01-08T17:31:37.777706 14056] Trying direct lookup
+[2024-01-08T17:31:37.781124 14056] Manifest key: dc81sniss4fq6d2q8hu5cbc7l7fs6dsf4
+[2024-01-08T17:31:37.782745 14056] Retrieved dc81sniss4fq6d2q8hu5cbc7l7fs6dsf4 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/81sniss4fq6d2q8hu5cbc7l7fs6dsf4M)
+[2024-01-08T17:31:37.803613 28004] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.803726 28004] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.803761 28004] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.803761 28004] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) base_dir = 
+[2024-01-08T17:31:37.803761 28004] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.803761 28004] Config: (default) compiler = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.803761 28004] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.803761 28004] Config: (default) compression = true
+[2024-01-08T17:31:37.803761 28004] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.803761 28004] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) debug = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.803761 28004] Config: (default) disable = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) file_clone = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) hard_link = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.803761 28004] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.803761 28004] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.803761 28004] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.803761 28004] Config: (default) max_files = 0
+[2024-01-08T17:31:37.803761 28004] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.803761 28004] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.803761 28004] Config: (default) namespace = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) path = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) read_only = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) recache = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) remote_only = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) reshare = false
+[2024-01-08T17:31:37.803761 28004] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.803761 28004] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.803761 28004] Config: (default) stats = true
+[2024-01-08T17:31:37.803761 28004] Config: (default) stats_log = 
+[2024-01-08T17:31:37.803761 28004] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.803761 28004] Config: (default) umask = 
+[2024-01-08T17:31:37.803942 28004] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._generic.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._generic.c
+[2024-01-08T17:31:37.828719 28004] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.828777 28004] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.828819 28004] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.828903 28004] Compiler type: gcc
+[2024-01-08T17:31:37.829899 28004] Source file: module.keyboard._generic.c
+[2024-01-08T17:31:37.829944 28004] Object file: module.keyboard._generic.o
+[2024-01-08T17:31:37.830481 28004] Trying direct lookup
+[2024-01-08T17:31:37.831656 28004] Manifest key: 15ffah3mj3qemoogsnck6pgrm8o5h8fkq
+[2024-01-08T17:31:37.853406 26892] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:37.853576 26892] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:37.853665 26892] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:37.853665 26892] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) base_dir = 
+[2024-01-08T17:31:37.853665 26892] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:37.853665 26892] Config: (default) compiler = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:37.853665 26892] Config: (default) compiler_type = auto
+[2024-01-08T17:31:37.853665 26892] Config: (default) compression = true
+[2024-01-08T17:31:37.853665 26892] Config: (default) compression_level = 0
+[2024-01-08T17:31:37.853665 26892] Config: (default) cpp_extension = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) debug = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) debug_dir = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) depend_mode = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) direct_mode = true
+[2024-01-08T17:31:37.853665 26892] Config: (default) disable = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) file_clone = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) hard_link = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) hash_dir = true
+[2024-01-08T17:31:37.853665 26892] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) ignore_options = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) inode_cache = true
+[2024-01-08T17:31:37.853665 26892] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:37.853665 26892] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:37.853665 26892] Config: (default) max_files = 0
+[2024-01-08T17:31:37.853665 26892] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:37.853665 26892] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:37.853665 26892] Config: (default) namespace = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) path = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) prefix_command = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) read_only = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) read_only_direct = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) recache = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) remote_only = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) remote_storage = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) reshare = false
+[2024-01-08T17:31:37.853665 26892] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:37.853665 26892] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:37.853665 26892] Config: (default) stats = true
+[2024-01-08T17:31:37.853665 26892] Config: (default) stats_log = 
+[2024-01-08T17:31:37.853665 26892] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:37.853665 26892] Config: (default) umask = 
+[2024-01-08T17:31:37.853973 26892] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._keyboard_event.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._keyboard_event.c
+[2024-01-08T17:31:37.860725 28004] Retrieved 15ffah3mj3qemoogsnck6pgrm8o5h8fkq from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/5/ffah3mj3qemoogsnck6pgrm8o5h8fkqM)
+[2024-01-08T17:31:37.869292 26892] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:37.869347 26892] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:37.869390 26892] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:37.869421 26892] Compiler type: gcc
+[2024-01-08T17:31:37.870377 26892] Source file: module.keyboard._keyboard_event.c
+[2024-01-08T17:31:37.870423 26892] Object file: module.keyboard._keyboard_event.o
+[2024-01-08T17:31:37.871254 26892] Trying direct lookup
+[2024-01-08T17:31:37.872564 26892] Manifest key: e133qt8bb1ff55ahu7qj8tj5st55crmmk
+[2024-01-08T17:31:37.873971 26892] Retrieved e133qt8bb1ff55ahu7qj8tj5st55crmmk from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/1/33qt8bb1ff55ahu7qj8tj5st55crmmkM)
+[2024-01-08T17:31:37.926842 6084 ] Got result key from manifest
+[2024-01-08T17:31:37.926913 6084 ] Result key: de4do6g3cd23s0d8ffdv8ma9epcv0gohk
+[2024-01-08T17:31:37.927828 6084 ] Retrieved de4do6g3cd23s0d8ffdv8ma9epcv0gohk from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/4do6g3cd23s0d8ffdv8ma9epcv0gohkR)
+[2024-01-08T17:31:37.928321 6084 ] Reading embedded entry #0 .o (3176 bytes)
+[2024-01-08T17:31:37.928369 6084 ] Writing to __constants.o
+[2024-01-08T17:31:37.930499 6084 ] Succeeded getting cached result
+[2024-01-08T17:31:37.930595 6084 ] Result: direct_cache_hit
+[2024-01-08T17:31:37.930629 6084 ] Result: local_storage_hit
+[2024-01-08T17:31:37.930658 6084 ] Result: local_storage_read_hit
+[2024-01-08T17:31:37.930686 6084 ] Result: local_storage_read_hit
+[2024-01-08T17:31:37.930737 6084 ] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2024-01-08T17:31:37.932815 6084 ] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2024-01-08T17:31:37.934780 30224] Got result key from manifest
+[2024-01-08T17:31:37.934854 30224] Result key: 5b6datlndomgs40vbi3kqtj8dagh44i3u
+[2024-01-08T17:31:37.936192 30224] Retrieved 5b6datlndomgs40vbi3kqtj8dagh44i3u from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/b/6datlndomgs40vbi3kqtj8dagh44i3uR)
+[2024-01-08T17:31:37.936711 30224] Reading embedded entry #0 .o (466 bytes)
+[2024-01-08T17:31:37.936756 30224] Writing to __helpers.o
+[2024-01-08T17:31:37.938318 6084 ] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2024-01-08T17:31:37.938537 6084 ] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2024-01-08T17:31:37.938961 30224] Succeeded getting cached result
+[2024-01-08T17:31:37.939147 30224] Result: direct_cache_hit
+[2024-01-08T17:31:37.939191 30224] Result: local_storage_hit
+[2024-01-08T17:31:37.939228 30224] Result: local_storage_read_hit
+[2024-01-08T17:31:37.939266 30224] Result: local_storage_read_hit
+[2024-01-08T17:31:37.939319 30224] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-08T17:31:37.943548 30224] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-08T17:31:37.947591 30224] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-08T17:31:37.949487 30224] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2024-01-08T17:31:37.985487 22764] Got result key from manifest
+[2024-01-08T17:31:37.985657 22764] Result key: d83fjl1e8c4800jvaaj725itg9aoude80
+[2024-01-08T17:31:37.989797 22764] Retrieved d83fjl1e8c4800jvaaj725itg9aoude80 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/3fjl1e8c4800jvaaj725itg9aoude80R)
+[2024-01-08T17:31:37.990399 22764] Reading embedded entry #0 .o (22638 bytes)
+[2024-01-08T17:31:37.990452 22764] Writing to module.keyboard._canonical_names.o
+[2024-01-08T17:31:37.991787 22764] Succeeded getting cached result
+[2024-01-08T17:31:37.991937 22764] Result: direct_cache_hit
+[2024-01-08T17:31:37.991981 22764] Result: local_storage_hit
+[2024-01-08T17:31:37.992011 22764] Result: local_storage_read_hit
+[2024-01-08T17:31:37.992039 22764] Result: local_storage_read_hit
+[2024-01-08T17:31:37.992096 22764] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:37.993981 22764] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:37.998271 22764] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:37.998460 22764] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:38.057154 14056] Got result key from manifest
+[2024-01-08T17:31:38.057235 14056] Result key: ffbftolbn1lo9l639aapt0rqes3c7ju8o
+[2024-01-08T17:31:38.058725 14056] Retrieved ffbftolbn1lo9l639aapt0rqes3c7ju8o from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/f/bftolbn1lo9l639aapt0rqes3c7ju8oR)
+[2024-01-08T17:31:38.059801 14056] Reading embedded entry #0 .o (170432 bytes)
+[2024-01-08T17:31:38.059849 14056] Writing to module.keyboard._darwinkeyboard.o
+[2024-01-08T17:31:38.061340 14056] Succeeded getting cached result
+[2024-01-08T17:31:38.061532 14056] Result: direct_cache_hit
+[2024-01-08T17:31:38.061573 14056] Result: local_storage_hit
+[2024-01-08T17:31:38.061602 14056] Result: local_storage_read_hit
+[2024-01-08T17:31:38.061630 14056] Result: local_storage_read_hit
+[2024-01-08T17:31:38.061683 14056] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2024-01-08T17:31:38.063864 14056] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2024-01-08T17:31:38.068434 14056] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2024-01-08T17:31:38.068639 14056] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2024-01-08T17:31:38.114870 28004] Got result key from manifest
+[2024-01-08T17:31:38.114953 28004] Result key: d477qudpak6ldg3pjl8mtg6cs0ckdvgti
+[2024-01-08T17:31:38.116541 28004] Retrieved d477qudpak6ldg3pjl8mtg6cs0ckdvgti from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/4/77qudpak6ldg3pjl8mtg6cs0ckdvgtiR)
+[2024-01-08T17:31:38.117743 28004] Reading embedded entry #0 .o (38457 bytes)
+[2024-01-08T17:31:38.117795 28004] Writing to module.keyboard._generic.o
+[2024-01-08T17:31:38.119064 28004] Succeeded getting cached result
+[2024-01-08T17:31:38.119176 28004] Result: direct_cache_hit
+[2024-01-08T17:31:38.119209 28004] Result: local_storage_hit
+[2024-01-08T17:31:38.119235 28004] Result: local_storage_read_hit
+[2024-01-08T17:31:38.119260 28004] Result: local_storage_read_hit
+[2024-01-08T17:31:38.119306 28004] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-08T17:31:38.121185 28004] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-08T17:31:38.122608 26892] Got result key from manifest
+[2024-01-08T17:31:38.122682 26892] Result key: a16fmj8o62rs73n1b1tq56n8fkhkku89a
+[2024-01-08T17:31:38.124103 26892] Retrieved a16fmj8o62rs73n1b1tq56n8fkhkku89a from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/1/6fmj8o62rs73n1b1tq56n8fkhkku89aR)
+[2024-01-08T17:31:38.124682 26892] Reading embedded entry #0 .o (32047 bytes)
+[2024-01-08T17:31:38.124734 26892] Writing to module.keyboard._keyboard_event.o
+[2024-01-08T17:31:38.125085 28004] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-08T17:31:38.125271 28004] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/stats.lock
+[2024-01-08T17:31:38.125789 26892] Succeeded getting cached result
+[2024-01-08T17:31:38.125890 26892] Result: direct_cache_hit
+[2024-01-08T17:31:38.125925 26892] Result: local_storage_hit
+[2024-01-08T17:31:38.125955 26892] Result: local_storage_read_hit
+[2024-01-08T17:31:38.125984 26892] Result: local_storage_read_hit
+[2024-01-08T17:31:38.126041 26892] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2024-01-08T17:31:38.127526 26892] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2024-01-08T17:31:38.143069 26892] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2024-01-08T17:31:38.143270 26892] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2024-01-08T17:31:38.240595 11000] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.240696 11000] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.240732 11000] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.240732 11000] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) base_dir = 
+[2024-01-08T17:31:38.240732 11000] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.240732 11000] Config: (default) compiler = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.240732 11000] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.240732 11000] Config: (default) compression = true
+[2024-01-08T17:31:38.240732 11000] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.240732 11000] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) debug = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.240732 11000] Config: (default) disable = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) file_clone = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) hard_link = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.240732 11000] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.240732 11000] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.240732 11000] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.240732 11000] Config: (default) max_files = 0
+[2024-01-08T17:31:38.240732 11000] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.240732 11000] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.240732 11000] Config: (default) namespace = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) path = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) read_only = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) recache = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) remote_only = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) reshare = false
+[2024-01-08T17:31:38.240732 11000] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.240732 11000] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.240732 11000] Config: (default) stats = true
+[2024-01-08T17:31:38.240732 11000] Config: (default) stats_log = 
+[2024-01-08T17:31:38.240732 11000] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.240732 11000] Config: (default) umask = 
+[2024-01-08T17:31:38.240919 11000] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._nixcommon.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._nixcommon.c
+[2024-01-08T17:31:38.256561 11000] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.256614 11000] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.256650 11000] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.256678 11000] Compiler type: gcc
+[2024-01-08T17:31:38.257922 11000] Source file: module.keyboard._nixcommon.c
+[2024-01-08T17:31:38.257971 11000] Object file: module.keyboard._nixcommon.o
+[2024-01-08T17:31:38.258455 11000] Trying direct lookup
+[2024-01-08T17:31:38.260602 11000] Manifest key: a97b010ttjsnm1t3ed2st0o070090m89i
+[2024-01-08T17:31:38.261952 11000] Retrieved a97b010ttjsnm1t3ed2st0o070090m89i from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/7b010ttjsnm1t3ed2st0o070090m89iM)
+[2024-01-08T17:31:38.303342 31340] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.303476 31340] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.303553 31340] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.303553 31340] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) base_dir = 
+[2024-01-08T17:31:38.303553 31340] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.303553 31340] Config: (default) compiler = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.303553 31340] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.303553 31340] Config: (default) compression = true
+[2024-01-08T17:31:38.303553 31340] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.303553 31340] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) debug = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.303553 31340] Config: (default) disable = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) file_clone = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) hard_link = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.303553 31340] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.303553 31340] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.303553 31340] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.303553 31340] Config: (default) max_files = 0
+[2024-01-08T17:31:38.303553 31340] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.303553 31340] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.303553 31340] Config: (default) namespace = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) path = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) read_only = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) recache = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) remote_only = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) reshare = false
+[2024-01-08T17:31:38.303553 31340] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.303553 31340] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.303553 31340] Config: (default) stats = true
+[2024-01-08T17:31:38.303553 31340] Config: (default) stats_log = 
+[2024-01-08T17:31:38.303553 31340] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.303553 31340] Config: (default) umask = 
+[2024-01-08T17:31:38.303764 31340] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._nixkeyboard.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._nixkeyboard.c
+[2024-01-08T17:31:38.315831 31340] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.315888 31340] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.315939 31340] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.315980 31340] Compiler type: gcc
+[2024-01-08T17:31:38.317005 31340] Source file: module.keyboard._nixkeyboard.c
+[2024-01-08T17:31:38.317051 31340] Object file: module.keyboard._nixkeyboard.o
+[2024-01-08T17:31:38.317724 31340] Trying direct lookup
+[2024-01-08T17:31:38.320067 31340] Manifest key: 8abbt362nefisc5pa9eclgl3qv3ib7gqg
+[2024-01-08T17:31:38.321526 31340] Retrieved 8abbt362nefisc5pa9eclgl3qv3ib7gqg from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/a/bbt362nefisc5pa9eclgl3qv3ib7gqgM)
+[2024-01-08T17:31:38.389002 29676] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.389112 29676] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.389147 29676] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.389147 29676] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) base_dir = 
+[2024-01-08T17:31:38.389147 29676] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.389147 29676] Config: (default) compiler = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.389147 29676] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.389147 29676] Config: (default) compression = true
+[2024-01-08T17:31:38.389147 29676] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.389147 29676] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) debug = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.389147 29676] Config: (default) disable = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) file_clone = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) hard_link = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.389147 29676] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.389147 29676] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.389147 29676] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.389147 29676] Config: (default) max_files = 0
+[2024-01-08T17:31:38.389147 29676] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.389147 29676] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.389147 29676] Config: (default) namespace = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) path = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) read_only = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) recache = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) remote_only = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) reshare = false
+[2024-01-08T17:31:38.389147 29676] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.389147 29676] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.389147 29676] Config: (default) stats = true
+[2024-01-08T17:31:38.389147 29676] Config: (default) stats_log = 
+[2024-01-08T17:31:38.389147 29676] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.389147 29676] Config: (default) umask = 
+[2024-01-08T17:31:38.389338 29676] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard._winkeyboard.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard._winkeyboard.c
+[2024-01-08T17:31:38.406131 29676] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.406184 29676] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.406225 29676] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.406257 29676] Compiler type: gcc
+[2024-01-08T17:31:38.407420 29676] Source file: module.keyboard._winkeyboard.c
+[2024-01-08T17:31:38.407465 29676] Object file: module.keyboard._winkeyboard.o
+[2024-01-08T17:31:38.407932 29676] Trying direct lookup
+[2024-01-08T17:31:38.412362 29676] Manifest key: 20fardcuaksu8obdtu9uuenh421oh3aoo
+[2024-01-08T17:31:38.413981 29676] Retrieved 20fardcuaksu8obdtu9uuenh421oh3aoo from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/fardcuaksu8obdtu9uuenh421oh3aooM)
+[2024-01-08T17:31:38.511958 6972 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.512060 6972 ] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.512092 6972 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) base_dir = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) compiler = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) compression = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) debug = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) disable = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) file_clone = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) hard_link = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) max_files = 0
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) namespace = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) path = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) read_only = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) recache = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) remote_only = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) reshare = false
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) stats = true
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) stats_log = 
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.512092 6972 ] Config: (default) umask = 
+[2024-01-08T17:31:38.512254 6972 ] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.keyboard.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\[2024-01-08T17:31:38.512367 11000] Got result key from manifest
+ers\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.keyboard.c
+[2024-01-08T17:31:38.512412 11000] Result key: 8efdannvnvqtvd0uvl1f6e5ko51p756pq
+[2024-01-08T17:31:38.513960 11000] Retrieved 8efdannvnvqtvd0uvl1f6e5ko51p756pq from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/e/fdannvnvqtvd0uvl1f6e5ko51p756pqR)
+[2024-01-08T17:31:38.514778 11000] Reading embedded entry #0 .o (89806 bytes)
+[2024-01-08T17:31:38.514867 11000] Writing to module.keyboard._nixcommon.o
+[2024-01-08T17:31:38.516207 11000] Succeeded getting cached result
+[2024-01-08T17:31:38.516332 11000] Result: direct_cache_hit
+[2024-01-08T17:31:38.516370 11000] Result: local_storage_hit
+[2024-01-08T17:31:38.516408 11000] Result: local_storage_read_hit
+[2024-01-08T17:31:38.516448 11000] Result: local_storage_read_hit
+[2024-01-08T17:31:38.516503 11000] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-08T17:31:38.518621 11000] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-08T17:31:38.523084 11000] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-08T17:31:38.523287 11000] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2024-01-08T17:31:38.528230 6972 ] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.528296 6972 ] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.528345 6972 ] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.528385 6972 ] Compiler type: gcc
+[2024-01-08T17:31:38.529394 6972 ] Source file: module.keyboard.c
+[2024-01-08T17:31:38.529436 6972 ] Object file: module.keyboard.o
+[2024-01-08T17:31:38.531663 6972 ] Trying direct lookup
+[2024-01-08T17:31:38.540148 6972 ] Manifest key: 96051g5tb3s7r09e1c75ef7obmdjsmieg
+[2024-01-08T17:31:38.541643 6972 ] Retrieved 96051g5tb3s7r09e1c75ef7obmdjsmieg from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/6/051g5tb3s7r09e1c75ef7obmdjsmiegM)
+[2024-01-08T17:31:38.564024 31340] Got result key from manifest
+[2024-01-08T17:31:38.564080 31340] Result key: 33d5ifmm5ts701n1ashfqn167eejahp74
+[2024-01-08T17:31:38.565239 31340] Retrieved 33d5ifmm5ts701n1ashfqn167eejahp74 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/d5ifmm5ts701n1ashfqn167eejahp74R)
+[2024-01-08T17:31:38.566109 31340] Reading embedded entry #0 .o (115745 bytes)
+[2024-01-08T17:31:38.566155 31340] Writing to module.keyboard._nixkeyboard.o
+[2024-01-08T17:31:38.567351 31340] Succeeded getting cached result
+[2024-01-08T17:31:38.567474 31340] Result: direct_cache_hit
+[2024-01-08T17:31:38.567537 31340] Result: local_storage_hit
+[2024-01-08T17:31:38.567578 31340] Result: local_storage_read_hit
+[2024-01-08T17:31:38.567618 31340] Result: local_storage_read_hit
+[2024-01-08T17:31:38.567677 31340] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-08T17:31:38.569589 31340] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-08T17:31:38.591742 28224] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.591849 28224] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.592068 28224] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.592068 28224] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) base_dir = 
+[2024-01-08T17:31:38.592068 28224] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.592068 28224] Config: (default) compiler = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.592068 28224] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.592068 28224] Config: (default) compression = true
+[2024-01-08T17:31:38.592068 28224] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.592068 28224] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) debug = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.592068 28224] Config: (default) disable = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) file_clone = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) hard_link = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.592068 28224] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.592068 28224] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.592068 28224] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.592068 28224] Config: (default) max_files = 0
+[2024-01-08T17:31:38.592068 28224] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.592068 28224] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.592068 28224] Config: (default) namespace = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) path = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) read_only = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) recache = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) remote_only = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) reshare = false
+[2024-01-08T17:31:38.592068 28224] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.592068 28224] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.592068 28224] Config: (default) stats = true
+[2024-01-08T17:31:38.592068 28224] Config: (default) stats_log = 
+[2024-01-08T17:31:38.592068 28224] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.592068 28224] Config: (default) umask = 
+[2024-01-08T17:31:38.592248 28224] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.sv_ttk.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.sv_ttk.c
+[2024-01-08T17:31:38.612607 31340] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-08T17:31:38.612796 31340] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2024-01-08T17:31:38.613323 28224] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.613373 28224] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.613411 28224] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.613445 28224] Compiler type: gcc
+[2024-01-08T17:31:38.614405 28224] Source file: module.sv_ttk.c
+[2024-01-08T17:31:38.614449 28224] Object file: module.sv_ttk.o
+[2024-01-08T17:31:38.614986 28224] Trying direct lookup
+[2024-01-08T17:31:38.616362 28224] Manifest key: 5da6fsva3q0kaddcjs17k4r94sebl5eng
+[2024-01-08T17:31:38.618342 28224] Retrieved 5da6fsva3q0kaddcjs17k4r94sebl5eng from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/d/a6fsva3q0kaddcjs17k4r94sebl5engM)
+[2024-01-08T17:31:38.665336 4468 ] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.665437 4468 ] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.665471 4468 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) base_dir = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) compiler = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) compression = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) debug = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) disable = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) file_clone = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) hard_link = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) max_files = 0
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) namespace = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) path = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) read_only = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) recache = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) remote_only = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) reshare = false
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) stats = true
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) stats_log = 
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.665471 4468 ] Config: (default) umask = 
+[2024-01-08T17:31:38.665665 4468 ] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o module.tkinter-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.tkinter-preLoad.c
+[2024-01-08T17:31:38.675228 29676] Got result key from manifest
+[2024-01-08T17:31:38.675423 29676] Result key: 4248juivue0545u9jih18hfqp4fasp23c
+[2024-01-08T17:31:38.676722 29676] Retrieved 4248juivue0545u9jih18hfqp4fasp23c from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/2/48juivue0545u9jih18hfqp4fasp23cR)
+[2024-01-08T17:31:38.678013 29676] Reading embedded entry #0 .o (191022 bytes)
+[2024-01-08T17:31:38.678245 29676] Writing to module.keyboard._winkeyboard.o
+[2024-01-08T17:31:38.679468 29676] Succeeded getting cached result
+[2024-01-08T17:31:38.679712 29676] Result: direct_cache_hit
+[2024-01-08T17:31:38.679751 29676] Result: local_storage_hit
+[2024-01-08T17:31:38.679781 29676] Result: local_storage_read_hit
+[2024-01-08T17:31:38.679809 29676] Result: local_storage_read_hit
+[2024-01-08T17:31:38.679858 29676] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:38.681385 29676] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:38.686689 4468 ] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.686744 4468 ] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.686783 4468 ] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.686819 4468 ] Compiler type: gcc
+[2024-01-08T17:31:38.687973 4468 ] Source file: module.tkinter-preLoad.c
+[2024-01-08T17:31:38.688177 4468 ] Object file: module.tkinter-preLoad.o
+[2024-01-08T17:31:38.688711 4468 ] Trying direct lookup
+[2024-01-08T17:31:38.689377 29676] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:38.689433 4468 ] Manifest key: 3627geo64pvv8q0t4crtuo5773e1gemtk
+[2024-01-08T17:31:38.689578 29676] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2024-01-08T17:31:38.690779 4468 ] Retrieved 3627geo64pvv8q0t4crtuo5773e1gemtk from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/6/27geo64pvv8q0t4crtuo5773e1gemtkM)
+[2024-01-08T17:31:38.710962 31060] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:38.711073 31060] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:38.711113 31060] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:38.711113 31060] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) base_dir = 
+[2024-01-08T17:31:38.711113 31060] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:38.711113 31060] Config: (default) compiler = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:38.711113 31060] Config: (default) compiler_type = auto
+[2024-01-08T17:31:38.711113 31060] Config: (default) compression = true
+[2024-01-08T17:31:38.711113 31060] Config: (default) compression_level = 0
+[2024-01-08T17:31:38.711113 31060] Config: (default) cpp_extension = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) debug = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) debug_dir = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) depend_mode = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) direct_mode = true
+[2024-01-08T17:31:38.711113 31060] Config: (default) disable = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) file_clone = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) hard_link = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) hash_dir = true
+[2024-01-08T17:31:38.711113 31060] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) ignore_options = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) inode_cache = true
+[2024-01-08T17:31:38.711113 31060] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:38.711113 31060] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:38.711113 31060] Config: (default) max_files = 0
+[2024-01-08T17:31:38.711113 31060] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:38.711113 31060] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:38.711113 31060] Config: (default) namespace = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) path = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) prefix_command = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) read_only = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) read_only_direct = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) recache = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) remote_only = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) remote_storage = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) reshare = false
+[2024-01-08T17:31:38.711113 31060] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:38.711113 31060] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:38.711113 31060] Config: (default) stats = true
+[2024-01-08T17:31:38.711113 31060] Config: (default) stats_log = 
+[2024-01-08T17:31:38.711113 31060] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:38.711113 31060] Config: (default) umask = 
+[2024-01-08T17:31:38.711315 31060] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2024-01-08T17:31:38.724861 31060] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:38.724914 31060] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:38.724955 31060] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:38.724986 31060] Compiler type: gcc
+[2024-01-08T17:31:38.726131 31060] Source file: static_src\MainProgram.c
+[2024-01-08T17:31:38.726172 31060] Object file: static_src\MainProgram.o
+[2024-01-08T17:31:38.726635 31060] Trying direct lookup
+[2024-01-08T17:31:38.727434 31060] Manifest key: 4969fr95pak8al048bpktc6no74amtuk0
+[2024-01-08T17:31:38.728957 31060] Retrieved 4969fr95pak8al048bpktc6no74amtuk0 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/9/69fr95pak8al048bpktc6no74amtuk0M)
+[2024-01-08T17:31:38.810991 6972 ] Got result key from manifest
+[2024-01-08T17:31:38.811062 6972 ] Result key: 85338nfbdk4glqp6droefi52frqai1aio
+[2024-01-08T17:31:38.812844 6972 ] Retrieved 85338nfbdk4glqp6droefi52frqai1aio from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/5/338nfbdk4glqp6droefi52frqai1aioR)
+[2024-01-08T17:31:38.814738 6972 ] Reading embedded entry #0 .o (398678 bytes)
+[2024-01-08T17:31:38.814790 6972 ] Writing to module.keyboard.o
+[2024-01-08T17:31:38.816054 6972 ] Succeeded getting cached result
+[2024-01-08T17:31:38.816256 6972 ] Result: direct_cache_hit
+[2024-01-08T17:31:38.816291 6972 ] Result: local_storage_hit
+[2024-01-08T17:31:38.816318 6972 ] Result: local_storage_read_hit
+[2024-01-08T17:31:38.816344 6972 ] Result: local_storage_read_hit
+[2024-01-08T17:31:38.816475 6972 ] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2024-01-08T17:31:38.818780 6972 ] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2024-01-08T17:31:38.822830 6972 ] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2024-01-08T17:31:38.823009 6972 ] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2024-01-08T17:31:38.857365 28224] Got result key from manifest
+[2024-01-08T17:31:38.857440 28224] Result key: c7f4kpem8gpfdlarfduoi4sgjt13l0cs8
+[2024-01-08T17:31:38.858694 28224] Retrieved c7f4kpem8gpfdlarfduoi4sgjt13l0cs8 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/7/f4kpem8gpfdlarfduoi4sgjt13l0cs8R)
+[2024-01-08T17:31:38.859506 28224] Reading embedded entry #0 .o (31347 bytes)
+[2024-01-08T17:31:38.859639 28224] Writing to module.sv_ttk.o
+[2024-01-08T17:31:38.861019 28224] Succeeded getting cached result
+[2024-01-08T17:31:38.861121 28224] Result: direct_cache_hit
+[2024-01-08T17:31:38.861156 28224] Result: local_storage_hit
+[2024-01-08T17:31:38.861185 28224] Result: local_storage_read_hit
+[2024-01-08T17:31:38.861212 28224] Result: local_storage_read_hit
+[2024-01-08T17:31:38.861247 28224] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2024-01-08T17:31:38.863461 28224] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2024-01-08T17:31:38.884275 28224] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2024-01-08T17:31:38.885828 28224] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2024-01-08T17:31:38.946646 4468 ] Got result key from manifest
+[2024-01-08T17:31:38.946716 4468 ] Result key: 0bfff56ff70cle0ta4fd686pf8s7olvc8
+[2024-01-08T17:31:38.947581 4468 ] Retrieved 0bfff56ff70cle0ta4fd686pf8s7olvc8 from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/fff56ff70cle0ta4fd686pf8s7olvc8R)
+[2024-01-08T17:31:38.948151 4468 ] Reading embedded entry #0 .o (8379 bytes)
+[2024-01-08T17:31:38.948202 4468 ] Writing to module.tkinter-preLoad.o
+[2024-01-08T17:31:38.949328 4468 ] Succeeded getting cached result
+[2024-01-08T17:31:38.949438 4468 ] Result: direct_cache_hit
+[2024-01-08T17:31:38.949470 4468 ] Result: local_storage_hit
+[2024-01-08T17:31:38.949495 4468 ] Result: local_storage_read_hit
+[2024-01-08T17:31:38.949519 4468 ] Result: local_storage_read_hit
+[2024-01-08T17:31:38.949551 4468 ] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/4/stats.lock
+[2024-01-08T17:31:38.951557 4468 ] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/4/stats.lock
+[2024-01-08T17:31:38.956314 4468 ] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/4/stats.lock
+[2024-01-08T17:31:38.956539 4468 ] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/4/stats.lock
+[2024-01-08T17:31:38.970847 31060] Got result key from manifest
+[2024-01-08T17:31:38.970907 31060] Result key: 82cd4237ms0gldvuggmj148bfn2fj2aaa
+[2024-01-08T17:31:38.972358 31060] Retrieved 82cd4237ms0gldvuggmj148bfn2fj2aaa from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/2/cd4237ms0gldvuggmj148bfn2fj2aaaR)
+[2024-01-08T17:31:38.972915 31060] Reading embedded entry #0 .o (9695 bytes)
+[2024-01-08T17:31:38.972979 31060] Writing to static_src\MainProgram.o
+[2024-01-08T17:31:38.974038 31060] Succeeded getting cached result
+[2024-01-08T17:31:38.974121 31060] Result: direct_cache_hit
+[2024-01-08T17:31:38.974161 31060] Result: local_storage_hit
+[2024-01-08T17:31:38.974190 31060] Result: local_storage_read_hit
+[2024-01-08T17:31:38.974218 31060] Result: local_storage_read_hit
+[2024-01-08T17:31:38.974255 31060] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/4/stats.lock
+[2024-01-08T17:31:38.976380 31060] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/4/stats.lock
+[2024-01-08T17:31:38.993474 31060] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/4/stats.lock
+[2024-01-08T17:31:38.993779 31060] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/4/stats.lock
+[2024-01-08T17:31:39.399674 28792] === CCACHE 4.8.2 STARTED =========================================
+[2024-01-08T17:31:39.399754 28792] Configuration file: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2024-01-08T17:31:39.399780 28792] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2024-01-08T17:31:39.399780 28792] Config: (default) absolute_paths_in_stderr = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) base_dir = 
+[2024-01-08T17:31:39.399780 28792] Config: (environment) cache_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2024-01-08T17:31:39.399780 28792] Config: (default) compiler = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) compiler_check = mtime
+[2024-01-08T17:31:39.399780 28792] Config: (default) compiler_type = auto
+[2024-01-08T17:31:39.399780 28792] Config: (default) compression = true
+[2024-01-08T17:31:39.399780 28792] Config: (default) compression_level = 0
+[2024-01-08T17:31:39.399780 28792] Config: (default) cpp_extension = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) debug = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) debug_dir = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) depend_mode = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) direct_mode = true
+[2024-01-08T17:31:39.399780 28792] Config: (default) disable = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) extra_files_to_hash = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) file_clone = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) hard_link = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) hash_dir = true
+[2024-01-08T17:31:39.399780 28792] Config: (default) ignore_headers_in_manifest = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) ignore_options = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) inode_cache = true
+[2024-01-08T17:31:39.399780 28792] Config: (default) keep_comments_cpp = false
+[2024-01-08T17:31:39.399780 28792] Config: (environment) log_file = C:\Users\K_lift\build\FastSearch.build\ccache-4092.txt
+[2024-01-08T17:31:39.399780 28792] Config: (default) max_files = 0
+[2024-01-08T17:31:39.399780 28792] Config: (default) max_size = 5.0 GiB
+[2024-01-08T17:31:39.399780 28792] Config: (default) msvc_dep_prefix = Note: including file:
+[2024-01-08T17:31:39.399780 28792] Config: (default) namespace = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) path = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) pch_external_checksum = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) prefix_command = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) prefix_command_cpp = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) read_only = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) read_only_direct = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) recache = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) remote_only = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) remote_storage = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) reshare = false
+[2024-01-08T17:31:39.399780 28792] Config: (default) run_second_cpp = true
+[2024-01-08T17:31:39.399780 28792] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2024-01-08T17:31:39.399780 28792] Config: (default) stats = true
+[2024-01-08T17:31:39.399780 28792] Config: (default) stats_log = 
+[2024-01-08T17:31:39.399780 28792] Config: (default) temporary_dir = C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2024-01-08T17:31:39.399780 28792] Config: (default) umask = 
+[2024-01-08T17:31:39.399917 28792] Command line: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\ccache.exe C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2024-01-08T17:31:39.412091 28792] Hostname: DESKTOP-SH8UNVS
+[2024-01-08T17:31:39.412150 28792] Working directory: C:/Users/K_lift/build/FastSearch.build
+[2024-01-08T17:31:39.412191 28792] Compiler: C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe
+[2024-01-08T17:31:39.412223 28792] Compiler type: gcc
+[2024-01-08T17:31:39.413510 28792] Source file: static_src\CompiledFunctionType.c
+[2024-01-08T17:31:39.413555 28792] Object file: static_src\CompiledFunctionType.o
+[2024-01-08T17:31:39.414014 28792] Trying direct lookup
+[2024-01-08T17:31:39.414945 28792] Manifest key: c2dae1onche6fqf219hm78i9ksq8d8smo
+[2024-01-08T17:31:39.416154 28792] Retrieved c2dae1onche6fqf219hm78i9ksq8d8smo from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/2/dae1onche6fqf219hm78i9ksq8d8smoM)
+[2024-01-08T17:31:39.688158 28792] Got result key from manifest
+[2024-01-08T17:31:39.688228 28792] Result key: 974bcq0tlkfkv19r5u8lam1q1mk1t97ra
+[2024-01-08T17:31:39.690269 28792] Retrieved 974bcq0tlkfkv19r5u8lam1q1mk1t97ra from local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/7/4bcq0tlkfkv19r5u8lam1q1mk1t97raR)
+[2024-01-08T17:31:39.694236 28792] Reading embedded entry #0 .o (901670 bytes)
+[2024-01-08T17:31:39.694291 28792] Writing to static_src\CompiledFunctionType.o
+[2024-01-08T17:31:39.695772 28792] Succeeded getting cached result
+[2024-01-08T17:31:39.696072 28792] Result: direct_cache_hit
+[2024-01-08T17:31:39.696118 28792] Result: local_storage_hit
+[2024-01-08T17:31:39.696147 28792] Result: local_storage_read_hit
+[2024-01-08T17:31:39.696172 28792] Result: local_storage_read_hit
+[2024-01-08T17:31:39.696224 28792] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2024-01-08T17:31:39.698402 28792] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2024-01-08T17:31:39.703459 28792] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2024-01-08T17:31:39.703672 28792] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2024-01-08T17:31:40.664053 31152] Got result key from preprocessor
+[2024-01-08T17:31:40.664119 31152] Result key: aeacfae9j9g0jrbfec7ra0bqe9knjb1du
+[2024-01-08T17:31:40.664511 31152] No aeacfae9j9g0jrbfec7ra0bqe9knjb1du in local storage
+[2024-01-08T17:31:40.664569 31152] Running real compiler
+[2024-01-08T17:31:40.665817 31152] Executing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\13.2.0-16.0.6-11.0.1-msvcrt-r1\mingw64\bin\gcc.exe -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_STANDALONE -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\inline_copy\zlib -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\K_lift\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2024-01-08T17:31:46.513342 31152] Using default compression level 1
+[2024-01-08T17:31:46.514844 31152] Storing embedded entry #0 .o (98892 bytes) from module.__main__.o
+[2024-01-08T17:31:46.522781 31152] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_ae.lock
+[2024-01-08T17:31:46.523309 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_ae.lock
+[2024-01-08T17:31:46.525102 31152] Stored aeacfae9j9g0jrbfec7ra0bqe9knjb1du in local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/e/acfae9j9g0jrbfec7ra0bqe9knjb1duR)
+[2024-01-08T17:31:46.525403 31152] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2024-01-08T17:31:46.525942 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2024-01-08T17:31:46.529068 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2024-01-08T17:31:46.529287 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2024-01-08T17:31:46.529361 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_ae.lock
+[2024-01-08T17:31:46.529531 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_ae.lock
+[2024-01-08T17:31:46.591038 31152] Added result key to manifest 2d74lbifsmoulq0ecdc23v1d930mqh37g
+[2024-01-08T17:31:46.591083 31152] Using default compression level 1
+[2024-01-08T17:31:46.594385 31152] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2024-01-08T17:31:46.594890 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2024-01-08T17:31:46.596932 31152] Stored 2d74lbifsmoulq0ecdc23v1d930mqh37g in local storage (C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/74lbifsmoulq0ecdc23v1d930mqh37gM)
+[2024-01-08T17:31:46.597146 31152] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2024-01-08T17:31:46.597786 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2024-01-08T17:31:46.601759 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2024-01-08T17:31:46.601948 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2024-01-08T17:31:46.601985 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2024-01-08T17:31:46.602148 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2024-01-08T17:31:46.602532 31152] Result: cache_miss
+[2024-01-08T17:31:46.602575 31152] Result: direct_cache_miss
+[2024-01-08T17:31:46.602605 31152] Result: local_storage_miss
+[2024-01-08T17:31:46.602634 31152] Result: local_storage_read_miss
+[2024-01-08T17:31:46.602663 31152] Result: local_storage_read_miss
+[2024-01-08T17:31:46.602693 31152] Result: local_storage_write
+[2024-01-08T17:31:46.602722 31152] Result: local_storage_write
+[2024-01-08T17:31:46.602751 31152] Result: preprocessed_cache_miss
+[2024-01-08T17:31:46.602786 31152] Acquiring C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/stats.lock
+[2024-01-08T17:31:46.603542 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/stats.lock
+[2024-01-08T17:31:46.616560 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/stats.lock
+[2024-01-08T17:31:46.616772 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/stats.lock
+[2024-01-08T17:31:46.617120 31152] Trying to acquire C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-08T17:31:46.617762 31152] Acquired C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-08T17:31:46.623530 31152] No automatic cleanup needed (size 14.8 MiB, files 597, max size 5.0 GiB)
+[2024-01-08T17:31:46.623651 31152] Releasing C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-08T17:31:46.623805 31152] Released C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2024-01-08T17:31:46.624213 31152] Unlink C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.JfgqhX.tmp
+[2024-01-08T17:31:46.624472 31152] Unlink C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stdout.tmp.RKsRVu.tmp
+[2024-01-08T17:31:46.624721 31152] Unlink C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.c7r2Yp.tmp
+[2024-01-08T17:31:46.625723 31152] Unlink C:\Users\K_lift\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/cpp_stdout.tmp.X8nvdX.i

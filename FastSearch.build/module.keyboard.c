@@ -1,5 +1,5 @@
 /* Generated code for Python module 'keyboard'
- * created by Nuitka version 1.8.4
+ * created by Nuitka version 1.9.7
  *
  * This code is in part copyright 2023 Kay Hayen.
  *
@@ -12921,21 +12921,6 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     // Return handler code:
     try_return_handler_3:;
     {
-        bool tmp_condition_result_4;
-        nuitka_bool tmp_cmp_expr_left_3;
-        nuitka_bool tmp_cmp_expr_right_3;
-        assert(tmp_with_1__indicator != NUITKA_BOOL_UNASSIGNED);
-        tmp_cmp_expr_left_3 = tmp_with_1__indicator;
-        tmp_cmp_expr_right_3 = NUITKA_BOOL_TRUE;
-        tmp_condition_result_4 = (tmp_cmp_expr_left_3 == tmp_cmp_expr_right_3) ? true : false;
-        if (tmp_condition_result_4 != false) {
-            goto branch_yes_4;
-        } else {
-            goto branch_no_4;
-        }
-    }
-    branch_yes_4:;
-    {
         PyObject *tmp_called_value_4;
         PyObject *tmp_call_result_3;
         CHECK_OBJECT(tmp_with_1__exit);
@@ -12955,7 +12940,6 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         }
         Py_DECREF(tmp_call_result_3);
     }
-    branch_no_4:;
     goto try_return_handler_2;
     // Exception handler code:
     try_except_handler_3:;
@@ -12969,20 +12953,20 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     exception_lineno = 0;
 
     {
-        bool tmp_condition_result_5;
-        nuitka_bool tmp_cmp_expr_left_4;
-        nuitka_bool tmp_cmp_expr_right_4;
+        bool tmp_condition_result_4;
+        nuitka_bool tmp_cmp_expr_left_3;
+        nuitka_bool tmp_cmp_expr_right_3;
         assert(tmp_with_1__indicator != NUITKA_BOOL_UNASSIGNED);
-        tmp_cmp_expr_left_4 = tmp_with_1__indicator;
-        tmp_cmp_expr_right_4 = NUITKA_BOOL_TRUE;
-        tmp_condition_result_5 = (tmp_cmp_expr_left_4 == tmp_cmp_expr_right_4) ? true : false;
-        if (tmp_condition_result_5 != false) {
-            goto branch_yes_5;
+        tmp_cmp_expr_left_3 = tmp_with_1__indicator;
+        tmp_cmp_expr_right_3 = NUITKA_BOOL_TRUE;
+        tmp_condition_result_4 = (tmp_cmp_expr_left_3 == tmp_cmp_expr_right_3) ? true : false;
+        if (tmp_condition_result_4 != false) {
+            goto branch_yes_4;
         } else {
-            goto branch_no_5;
+            goto branch_no_4;
         }
     }
-    branch_yes_5:;
+    branch_yes_4:;
     {
         PyObject *tmp_called_value_5;
         PyObject *tmp_call_result_4;
@@ -13006,7 +12990,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         }
         Py_DECREF(tmp_call_result_4);
     }
-    branch_no_5:;
+    branch_no_4:;
     // Re-raise.
     exception_type = exception_keeper_type_3;
     exception_value = exception_keeper_value_3;
@@ -13016,42 +13000,6 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     goto try_except_handler_2;
     // End of try:
     try_end_3:;
-    {
-        bool tmp_condition_result_6;
-        nuitka_bool tmp_cmp_expr_left_5;
-        nuitka_bool tmp_cmp_expr_right_5;
-        assert(tmp_with_1__indicator != NUITKA_BOOL_UNASSIGNED);
-        tmp_cmp_expr_left_5 = tmp_with_1__indicator;
-        tmp_cmp_expr_right_5 = NUITKA_BOOL_TRUE;
-        tmp_condition_result_6 = (tmp_cmp_expr_left_5 == tmp_cmp_expr_right_5) ? true : false;
-        if (tmp_condition_result_6 != false) {
-            goto branch_yes_6;
-        } else {
-            goto branch_no_6;
-        }
-    }
-    branch_yes_6:;
-    {
-        PyObject *tmp_called_value_6;
-        PyObject *tmp_call_result_5;
-        CHECK_OBJECT(tmp_with_1__exit);
-        tmp_called_value_6 = tmp_with_1__exit;
-        frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 414;
-        tmp_call_result_5 = CALL_FUNCTION_WITH_POSARGS3(tstate, tmp_called_value_6, mod_consts[37]);
-
-        if (tmp_call_result_5 == NULL) {
-            assert(HAS_ERROR_OCCURRED(tstate));
-
-            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 414;
-            type_description_1 = "ooco";
-            goto try_except_handler_2;
-        }
-        Py_DECREF(tmp_call_result_5);
-    }
-    branch_no_6:;
     goto try_end_4;
     // Return handler code:
     try_return_handler_2:;
@@ -13061,7 +13009,8 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     CHECK_OBJECT(tmp_with_1__enter);
     Py_DECREF(tmp_with_1__enter);
     tmp_with_1__enter = NULL;
-    Py_XDECREF(tmp_with_1__exit);
+    CHECK_OBJECT(tmp_with_1__exit);
+    Py_DECREF(tmp_with_1__exit);
     tmp_with_1__exit = NULL;
     goto frame_return_exit_1;
     // Exception handler code:
@@ -13102,15 +13051,15 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     branch_no_1:;
     {
         PyObject *tmp_assign_source_6;
-        PyObject *tmp_called_value_7;
+        PyObject *tmp_called_value_6;
         PyObject *tmp_args_element_value_5;
-        tmp_called_value_7 = GET_STRING_DICT_VALUE(moduledict_keyboard, (Nuitka_StringObject *)mod_consts[89]);
+        tmp_called_value_6 = GET_STRING_DICT_VALUE(moduledict_keyboard, (Nuitka_StringObject *)mod_consts[89]);
 
-        if (unlikely(tmp_called_value_7 == NULL)) {
-            tmp_called_value_7 = GET_MODULE_VARIABLE_VALUE_FALLBACK(tstate, mod_consts[89]);
+        if (unlikely(tmp_called_value_6 == NULL)) {
+            tmp_called_value_6 = GET_MODULE_VARIABLE_VALUE_FALLBACK(tstate, mod_consts[89]);
         }
 
-        if (tmp_called_value_7 == NULL) {
+        if (tmp_called_value_6 == NULL) {
             assert(HAS_ERROR_OCCURRED(tstate));
 
             FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
@@ -13123,7 +13072,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         CHECK_OBJECT(par_hotkey);
         tmp_args_element_value_5 = par_hotkey;
         frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 417;
-        tmp_assign_source_6 = CALL_FUNCTION_WITH_SINGLE_ARG(tstate, tmp_called_value_7, tmp_args_element_value_5);
+        tmp_assign_source_6 = CALL_FUNCTION_WITH_SINGLE_ARG(tstate, tmp_called_value_6, tmp_args_element_value_5);
         if (tmp_assign_source_6 == NULL) {
             assert(HAS_ERROR_OCCURRED(tstate));
 
@@ -13138,14 +13087,14 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         var_steps = tmp_assign_source_6;
     }
     {
-        bool tmp_condition_result_7;
-        PyObject *tmp_cmp_expr_left_6;
-        nuitka_digit tmp_cmp_expr_right_6;
+        bool tmp_condition_result_5;
+        PyObject *tmp_cmp_expr_left_4;
+        nuitka_digit tmp_cmp_expr_right_4;
         PyObject *tmp_len_arg_1;
         CHECK_OBJECT(var_steps);
         tmp_len_arg_1 = var_steps;
-        tmp_cmp_expr_left_6 = BUILTIN_LEN(tstate, tmp_len_arg_1);
-        if (tmp_cmp_expr_left_6 == NULL) {
+        tmp_cmp_expr_left_4 = BUILTIN_LEN(tstate, tmp_len_arg_1);
+        if (tmp_cmp_expr_left_4 == NULL) {
             assert(HAS_ERROR_OCCURRED(tstate));
 
             FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
@@ -13155,16 +13104,16 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
             type_description_1 = "ooco";
             goto frame_exception_exit_1;
         }
-        tmp_cmp_expr_right_6 = 1;
-        tmp_condition_result_7 = RICH_COMPARE_GT_CBOOL_LONG_DIGIT(tmp_cmp_expr_left_6, tmp_cmp_expr_right_6);
-        Py_DECREF(tmp_cmp_expr_left_6);
-        if (tmp_condition_result_7 != false) {
-            goto branch_yes_7;
+        tmp_cmp_expr_right_4 = 1;
+        tmp_condition_result_5 = RICH_COMPARE_GT_CBOOL_LONG_DIGIT(tmp_cmp_expr_left_4, tmp_cmp_expr_right_4);
+        Py_DECREF(tmp_cmp_expr_left_4);
+        if (tmp_condition_result_5 != false) {
+            goto branch_yes_5;
         } else {
-            goto branch_no_7;
+            goto branch_no_5;
         }
     }
-    branch_yes_7:;
+    branch_yes_5:;
     {
         PyObject *tmp_raise_type_1;
         PyObject *tmp_make_exception_arg_1;
@@ -13178,7 +13127,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         type_description_1 = "ooco";
         goto frame_exception_exit_1;
     }
-    branch_no_7:;
+    branch_no_5:;
     // Tried code:
     {
         PyObject *tmp_assign_source_7;
@@ -13204,12 +13153,12 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     }
     {
         PyObject *tmp_assign_source_8;
-        PyObject *tmp_called_value_8;
+        PyObject *tmp_called_value_7;
         PyObject *tmp_expression_value_3;
         CHECK_OBJECT(tmp_with_2__source);
         tmp_expression_value_3 = tmp_with_2__source;
-        tmp_called_value_8 = LOOKUP_SPECIAL(tstate, tmp_expression_value_3, mod_consts[33]);
-        if (tmp_called_value_8 == NULL) {
+        tmp_called_value_7 = LOOKUP_SPECIAL(tstate, tmp_expression_value_3, mod_consts[33]);
+        if (tmp_called_value_7 == NULL) {
             assert(HAS_ERROR_OCCURRED(tstate));
 
             FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
@@ -13220,8 +13169,8 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
             goto try_except_handler_6;
         }
         frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 422;
-        tmp_assign_source_8 = CALL_FUNCTION_NO_ARGS(tstate, tmp_called_value_8);
-        Py_DECREF(tmp_called_value_8);
+        tmp_assign_source_8 = CALL_FUNCTION_NO_ARGS(tstate, tmp_called_value_7);
+        Py_DECREF(tmp_called_value_7);
         if (tmp_assign_source_8 == NULL) {
             assert(HAS_ERROR_OCCURRED(tstate));
 
@@ -13319,42 +13268,42 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     PUBLISH_CURRENT_EXCEPTION(tstate, &exception_keeper_type_5, &exception_keeper_value_5, &exception_keeper_tb_5);
     // Tried code:
     {
-        bool tmp_condition_result_8;
-        PyObject *tmp_cmp_expr_left_7;
-        PyObject *tmp_cmp_expr_right_7;
-        tmp_cmp_expr_left_7 = EXC_TYPE(PyThreadState_GET());
-        tmp_cmp_expr_right_7 = PyExc_BaseException;
-        tmp_res = EXCEPTION_MATCH_BOOL(tstate, tmp_cmp_expr_left_7, tmp_cmp_expr_right_7);
+        bool tmp_condition_result_6;
+        PyObject *tmp_cmp_expr_left_5;
+        PyObject *tmp_cmp_expr_right_5;
+        tmp_cmp_expr_left_5 = EXC_TYPE(PyThreadState_GET());
+        tmp_cmp_expr_right_5 = PyExc_BaseException;
+        tmp_res = EXCEPTION_MATCH_BOOL(tstate, tmp_cmp_expr_left_5, tmp_cmp_expr_right_5);
         assert(!(tmp_res == -1));
-        tmp_condition_result_8 = (tmp_res != 0) ? true : false;
-        if (tmp_condition_result_8 != false) {
-            goto branch_yes_8;
+        tmp_condition_result_6 = (tmp_res != 0) ? true : false;
+        if (tmp_condition_result_6 != false) {
+            goto branch_yes_6;
         } else {
-            goto branch_no_8;
+            goto branch_no_6;
         }
     }
-    branch_yes_8:;
+    branch_yes_6:;
     {
         nuitka_bool tmp_assign_source_12;
         tmp_assign_source_12 = NUITKA_BOOL_FALSE;
         tmp_with_2__indicator = tmp_assign_source_12;
     }
     {
-        bool tmp_condition_result_9;
+        bool tmp_condition_result_7;
         PyObject *tmp_operand_value_2;
-        PyObject *tmp_called_value_9;
+        PyObject *tmp_called_value_8;
         PyObject *tmp_args_element_value_6;
         PyObject *tmp_args_element_value_7;
         PyObject *tmp_args_element_value_8;
         CHECK_OBJECT(tmp_with_2__exit);
-        tmp_called_value_9 = tmp_with_2__exit;
+        tmp_called_value_8 = tmp_with_2__exit;
         tmp_args_element_value_6 = EXC_TYPE(PyThreadState_GET());
         tmp_args_element_value_7 = EXC_VALUE(PyThreadState_GET());
         tmp_args_element_value_8 = (PyObject *)GET_EXCEPTION_TRACEBACK(EXC_VALUE(PyThreadState_GET()));
         frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 422;
         {
             PyObject *call_args[] = {tmp_args_element_value_6, tmp_args_element_value_7, tmp_args_element_value_8};
-            tmp_operand_value_2 = CALL_FUNCTION_WITH_ARGS3(tstate, tmp_called_value_9, call_args);
+            tmp_operand_value_2 = CALL_FUNCTION_WITH_ARGS3(tstate, tmp_called_value_8, call_args);
         }
 
         if (tmp_operand_value_2 == NULL) {
@@ -13379,14 +13328,14 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
             type_description_1 = "ooco";
             goto try_except_handler_9;
         }
-        tmp_condition_result_9 = (tmp_res == 0) ? true : false;
-        if (tmp_condition_result_9 != false) {
-            goto branch_yes_9;
+        tmp_condition_result_7 = (tmp_res == 0) ? true : false;
+        if (tmp_condition_result_7 != false) {
+            goto branch_yes_7;
         } else {
-            goto branch_no_9;
+            goto branch_no_7;
         }
     }
-    branch_yes_9:;
+    branch_yes_7:;
     tmp_result = RERAISE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
     if (unlikely(tmp_result == false)) {
         exception_lineno = 422;
@@ -13395,9 +13344,9 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     if (exception_tb && exception_tb->tb_frame == &frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame) frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = exception_tb->tb_lineno;
     type_description_1 = "ooco";
     goto try_except_handler_9;
-    branch_no_9:;
-    goto branch_end_8;
-    branch_no_8:;
+    branch_no_7:;
+    goto branch_end_6;
+    branch_no_6:;
     tmp_result = RERAISE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
     if (unlikely(tmp_result == false)) {
         exception_lineno = 422;
@@ -13406,7 +13355,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     if (exception_tb && exception_tb->tb_frame == &frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame) frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = exception_tb->tb_lineno;
     type_description_1 = "ooco";
     goto try_except_handler_9;
-    branch_end_8:;
+    branch_end_6:;
     goto try_end_6;
     // Exception handler code:
     try_except_handler_9:;
@@ -13452,20 +13401,68 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
     exception_lineno = 0;
 
     {
-        bool tmp_condition_result_10;
-        nuitka_bool tmp_cmp_expr_left_8;
-        nuitka_bool tmp_cmp_expr_right_8;
+        bool tmp_condition_result_8;
+        nuitka_bool tmp_cmp_expr_left_6;
+        nuitka_bool tmp_cmp_expr_right_6;
         assert(tmp_with_2__indicator != NUITKA_BOOL_UNASSIGNED);
-        tmp_cmp_expr_left_8 = tmp_with_2__indicator;
-        tmp_cmp_expr_right_8 = NUITKA_BOOL_TRUE;
-        tmp_condition_result_10 = (tmp_cmp_expr_left_8 == tmp_cmp_expr_right_8) ? true : false;
-        if (tmp_condition_result_10 != false) {
-            goto branch_yes_10;
+        tmp_cmp_expr_left_6 = tmp_with_2__indicator;
+        tmp_cmp_expr_right_6 = NUITKA_BOOL_TRUE;
+        tmp_condition_result_8 = (tmp_cmp_expr_left_6 == tmp_cmp_expr_right_6) ? true : false;
+        if (tmp_condition_result_8 != false) {
+            goto branch_yes_8;
         } else {
-            goto branch_no_10;
+            goto branch_no_8;
         }
     }
-    branch_yes_10:;
+    branch_yes_8:;
+    {
+        PyObject *tmp_called_value_9;
+        PyObject *tmp_call_result_5;
+        CHECK_OBJECT(tmp_with_2__exit);
+        tmp_called_value_9 = tmp_with_2__exit;
+        frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 422;
+        tmp_call_result_5 = CALL_FUNCTION_WITH_POSARGS3(tstate, tmp_called_value_9, mod_consts[37]);
+
+        if (tmp_call_result_5 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+            Py_DECREF(exception_keeper_type_7);
+            Py_XDECREF(exception_keeper_value_7);
+            Py_XDECREF(exception_keeper_tb_7);
+
+            exception_lineno = 422;
+            type_description_1 = "ooco";
+            goto try_except_handler_6;
+        }
+        Py_DECREF(tmp_call_result_5);
+    }
+    branch_no_8:;
+    // Re-raise.
+    exception_type = exception_keeper_type_7;
+    exception_value = exception_keeper_value_7;
+    exception_tb = exception_keeper_tb_7;
+    exception_lineno = exception_keeper_lineno_7;
+
+    goto try_except_handler_6;
+    // End of try:
+    try_end_7:;
+    {
+        bool tmp_condition_result_9;
+        nuitka_bool tmp_cmp_expr_left_7;
+        nuitka_bool tmp_cmp_expr_right_7;
+        assert(tmp_with_2__indicator != NUITKA_BOOL_UNASSIGNED);
+        tmp_cmp_expr_left_7 = tmp_with_2__indicator;
+        tmp_cmp_expr_right_7 = NUITKA_BOOL_TRUE;
+        tmp_condition_result_9 = (tmp_cmp_expr_left_7 == tmp_cmp_expr_right_7) ? true : false;
+        if (tmp_condition_result_9 != false) {
+            goto branch_yes_9;
+        } else {
+            goto branch_no_9;
+        }
+    }
+    branch_yes_9:;
     {
         PyObject *tmp_called_value_10;
         PyObject *tmp_call_result_6;
@@ -13479,9 +13476,6 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
 
             FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
 
-            Py_DECREF(exception_keeper_type_7);
-            Py_XDECREF(exception_keeper_value_7);
-            Py_XDECREF(exception_keeper_tb_7);
 
             exception_lineno = 422;
             type_description_1 = "ooco";
@@ -13489,52 +13483,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         }
         Py_DECREF(tmp_call_result_6);
     }
-    branch_no_10:;
-    // Re-raise.
-    exception_type = exception_keeper_type_7;
-    exception_value = exception_keeper_value_7;
-    exception_tb = exception_keeper_tb_7;
-    exception_lineno = exception_keeper_lineno_7;
-
-    goto try_except_handler_6;
-    // End of try:
-    try_end_7:;
-    {
-        bool tmp_condition_result_11;
-        nuitka_bool tmp_cmp_expr_left_9;
-        nuitka_bool tmp_cmp_expr_right_9;
-        assert(tmp_with_2__indicator != NUITKA_BOOL_UNASSIGNED);
-        tmp_cmp_expr_left_9 = tmp_with_2__indicator;
-        tmp_cmp_expr_right_9 = NUITKA_BOOL_TRUE;
-        tmp_condition_result_11 = (tmp_cmp_expr_left_9 == tmp_cmp_expr_right_9) ? true : false;
-        if (tmp_condition_result_11 != false) {
-            goto branch_yes_11;
-        } else {
-            goto branch_no_11;
-        }
-    }
-    branch_yes_11:;
-    {
-        PyObject *tmp_called_value_11;
-        PyObject *tmp_call_result_7;
-        CHECK_OBJECT(tmp_with_2__exit);
-        tmp_called_value_11 = tmp_with_2__exit;
-        frame_0e0c0a7a90c6a6cdb95f17994b02b963->m_frame.f_lineno = 422;
-        tmp_call_result_7 = CALL_FUNCTION_WITH_POSARGS3(tstate, tmp_called_value_11, mod_consts[37]);
-
-        if (tmp_call_result_7 == NULL) {
-            assert(HAS_ERROR_OCCURRED(tstate));
-
-            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 422;
-            type_description_1 = "ooco";
-            goto try_except_handler_6;
-        }
-        Py_DECREF(tmp_call_result_7);
-    }
-    branch_no_11:;
+    branch_no_9:;
     goto try_end_8;
     // Exception handler code:
     try_except_handler_6:;
@@ -13645,7 +13594,7 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
 
     }
     {
-        bool tmp_condition_result_12;
+        bool tmp_condition_result_10;
         PyObject *tmp_operand_value_3;
         PyObject *tmp_any_arg_1;
         {
@@ -13710,18 +13659,18 @@ static PyObject *impl_keyboard$$$function__17_is_pressed(PyThreadState *tstate, 
         tmp_res = CHECK_IF_TRUE(tmp_operand_value_3);
         Py_DECREF(tmp_operand_value_3);
         assert(!(tmp_res == -1));
-        tmp_condition_result_12 = (tmp_res == 0) ? true : false;
-        if (tmp_condition_result_12 != false) {
-            goto branch_yes_12;
+        tmp_condition_result_10 = (tmp_res == 0) ? true : false;
+        if (tmp_condition_result_10 != false) {
+            goto branch_yes_10;
         } else {
-            goto branch_no_12;
+            goto branch_no_10;
         }
     }
-    branch_yes_12:;
+    branch_yes_10:;
     tmp_return_value = Py_False;
     Py_INCREF(tmp_return_value);
     goto try_return_handler_10;
-    branch_no_12:;
+    branch_no_10:;
     if (CONSIDER_THREADING(tstate) == false) {
         assert(HAS_ERROR_OCCURRED(tstate));
 
@@ -45107,7 +45056,7 @@ extern PyTypeObject Nuitka_Loader_Type;
 // in another process, useful for multiprocessing extensions like dill
 extern void registerDillPluginTables(PyThreadState *tstate, char const *module_name, PyMethodDef *reduce_compiled_function, PyMethodDef *create_compiled_function);
 
-function_impl_code functable_keyboard[] = {
+static function_impl_code const function_table_keyboard[] = {
     impl_keyboard$$$function__18_call_later$$$function__1_lambda,
     impl_keyboard$$$function__19_hook$$$function__1_remove_,
     impl_keyboard$$$function__21_on_press$$$function__1_lambda,
@@ -45115,7 +45064,6 @@ function_impl_code functable_keyboard[] = {
     impl_keyboard$$$function__23_hook_key$$$function__1_remove_,
     impl_keyboard$$$function__24_on_press_key$$$function__1_lambda,
     impl_keyboard$$$function__25_on_release_key$$$function__1_lambda,
-    NULL,
     impl_keyboard$$$function__29_remap_key$$$function__1_handler,
     impl_keyboard$$$function__30_parse_hotkey_combinations$$$function__1_combine_step,
     impl_keyboard$$$function__31__add_hotkey_step$$$function__1_remove,
@@ -45125,7 +45073,6 @@ function_impl_code functable_keyboard[] = {
     impl_keyboard$$$function__32_add_hotkey$$$function__4_catch_misses,
     impl_keyboard$$$function__32_add_hotkey$$$function__5_set_index,
     impl_keyboard$$$function__32_add_hotkey$$$function__6_remove_,
-    NULL,
     impl_keyboard$$$function__32_add_hotkey$$$function__5_set_index$$$function__2_handler,
     impl_keyboard$$$function__32_add_hotkey$$$function__5_set_index$$$function__3_handler,
     impl_keyboard$$$function__35_remap_hotkey$$$function__1_handler,
@@ -45153,7 +45100,6 @@ function_impl_code functable_keyboard[] = {
     impl_keyboard$$$function__16_release,
     impl_keyboard$$$function__17_is_pressed,
     impl_keyboard$$$function__18_call_later,
-    NULL,
     impl_keyboard$$$function__19_hook,
     impl_keyboard$$$function__21_on_press,
     impl_keyboard$$$function__22_on_release,
@@ -45190,42 +45136,31 @@ function_impl_code functable_keyboard[] = {
     NULL
 };
 
-static char const *_reduce_compiled_function_argnames[] = {
-    "func",
-    NULL
-};
-
 static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObject *kwds) {
     PyObject *func;
 
-    if (!PyArg_ParseTupleAndKeywords(args, kwds, "O:reduce_compiled_function", (char **)_reduce_compiled_function_argnames, &func, NULL)) {
+    if (!PyArg_ParseTuple(args, "O:reduce_compiled_function", &func, NULL)) {
         return NULL;
     }
 
     if (Nuitka_Function_Check(func) == false) {
         PyThreadState *tstate = PyThreadState_GET();
 
-        SET_CURRENT_EXCEPTION_TYPE0_STR_STATE(tstate, PyExc_TypeError, "not a compiled function");
+        SET_CURRENT_EXCEPTION_TYPE0_STR(tstate, PyExc_TypeError, "not a compiled function");
         return NULL;
     }
 
     struct Nuitka_FunctionObject *function = (struct Nuitka_FunctionObject *)func;
 
-    function_impl_code *current = functable_keyboard;
-    int offset = 0;
+    int offset = Nuitka_Function_GetFunctionCodeIndex(function, function_table_keyboard);
 
-    while (*current != NULL) {
-        if (*current == function->m_c_code) {
-            break;
-        }
-
-        current += 1;
-        offset += 1;
-    }
-
-    if (*current == NULL) {
+    if (unlikely(offset == -1)) {
         PyThreadState *tstate = PyThreadState_GET();
-
+#if 0
+        PRINT_STRING("Looking for:");
+        PRINT_ITEM(func);
+        PRINT_NEW_LINE();
+#endif
         SET_CURRENT_EXCEPTION_TYPE0_STR(tstate, PyExc_TypeError, "Cannot find compiled function in module.");
         return NULL;
     }
@@ -45240,11 +45175,30 @@ static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObj
 
     CHECK_OBJECT_DEEP(code_object_desc);
 
-    PyObject *result = MAKE_TUPLE_EMPTY(4);
+
+    PyObject *result = MAKE_TUPLE_EMPTY(6);
     PyTuple_SET_ITEM(result, 0, PyLong_FromLong(offset));
     PyTuple_SET_ITEM(result, 1, code_object_desc);
     PyTuple_SET_ITEM0(result, 2, function->m_defaults);
-    PyTuple_SET_ITEM0(result, 3, function->m_doc != NULL ? function->m_doc : Py_None);
+#if PYTHON_VERSION >= 0x300
+    PyTuple_SET_ITEM0(result, 3, function->m_kwdefaults ? function->m_kwdefaults : Py_None);
+#else
+    PyTuple_SET_ITEM0(result, 3, Py_None);
+#endif
+    PyTuple_SET_ITEM0(result, 4, function->m_doc != NULL ? function->m_doc : Py_None);
+
+    if (offset == -5) {
+        CHECK_OBJECT(function->m_constant_return_value);
+        PyTuple_SET_ITEM0(result, 5, function->m_constant_return_value);
+    } else {
+        PyTuple_SET_ITEM0(result, 5, Py_None);
+    }
+
+#if PYTHON_VERSION >= 0x300
+    PyTuple_SET_ITEM0(result, 6, function->m_qualname);
+#else
+    PyTuple_SET_ITEM0(result, 6, Py_None);
+#endif
 
     CHECK_OBJECT_DEEP(result);
 
@@ -45252,92 +45206,48 @@ static PyObject *_reduce_compiled_function(PyObject *self, PyObject *args, PyObj
 }
 
 static PyMethodDef _method_def_reduce_compiled_function = {"reduce_compiled_function", (PyCFunction)_reduce_compiled_function,
-                                                           METH_VARARGS | METH_KEYWORDS, NULL};
-
-static char const *_create_compiled_function_argnames[] = {
-    "func",
-    "code_object_desc",
-    "defaults",
-    "doc",
-    NULL
-};
+                                                           METH_VARARGS, NULL};
 
 
 static PyObject *_create_compiled_function(PyObject *self, PyObject *args, PyObject *kwds) {
     CHECK_OBJECT_DEEP(args);
 
-    PyObject *func;
+    PyObject *function_index;
     PyObject *code_object_desc;
     PyObject *defaults;
+    PyObject *kw_defaults;
     PyObject *doc;
+    PyObject *constant_return_value;
+    PyObject *function_qualname;
 
-    if (!PyArg_ParseTupleAndKeywords(args, kwds, "OOOO:create_compiled_function", (char **)_create_compiled_function_argnames, &func, &code_object_desc, &defaults, &doc, NULL)) {
+    if (!PyArg_ParseTuple(args, "OOOOOO:create_compiled_function", &function_index, &code_object_desc, &defaults, &kw_defaults, &doc, &constant_return_value, &function_qualname, NULL)) {
         return NULL;
     }
 
-    int offset = PyLong_AsLong(func);
-
-    if (offset == -1 && HAS_ERROR_OCCURRED(tstate)) {
-        return NULL;
-    }
-
-    if (offset > sizeof(functable_keyboard) || offset < 0) {
-        SET_CURRENT_EXCEPTION_TYPE0_STR_STATE(tstate, PyExc_TypeError, "Wrong offset for compiled function.");
-        return NULL;
-    }
-
-    PyObject *filename = PyTuple_GET_ITEM(code_object_desc, 0);
-    PyObject *function_name = PyTuple_GET_ITEM(code_object_desc, 1);
-    PyObject *line = PyTuple_GET_ITEM(code_object_desc, 2);
-    int line_int = PyLong_AsLong(line);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-
-    PyObject *argnames = PyTuple_GET_ITEM(code_object_desc, 3);
-    PyObject *arg_count = PyTuple_GET_ITEM(code_object_desc, 4);
-    int arg_count_int = PyLong_AsLong(arg_count);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-    PyObject *flags = PyTuple_GET_ITEM(code_object_desc, 5);
-    int flags_int = PyLong_AsLong(flags);
-    assert(!HAS_ERROR_OCCURRED(tstate));
-
-    PyCodeObject *code_object = MAKE_CODE_OBJECT(
-        filename,
-        line_int,
-        flags_int,
-        function_name,
-        function_name, // TODO: function_qualname
-        argnames,
-        NULL, // freevars
-        arg_count_int,
-        0, // TODO: Missing kw_only_count
-        0 // TODO: Missing pos_only_count
-    );
-
-    struct Nuitka_FunctionObject *result = Nuitka_Function_New(
-        functable_keyboard[offset],
-        code_object->co_name,
 #if PYTHON_VERSION >= 0x300
-        NULL, // TODO: Not transferring qualname yet
+    if (kw_defaults == Py_None) {
+        kw_defaults = NULL;
+    }
 #endif
-        code_object,
-        defaults,
-#if PYTHON_VERSION >= 0x300
-        NULL, // kwdefaults are done on the outside currently
-        NULL, // TODO: Not transferring annotations
-#endif
+
+    return (PyObject *)Nuitka_Function_CreateFunctionViaCodeIndex(
         module_keyboard,
+        function_qualname,
+        function_index,
+        code_object_desc,
+        constant_return_value,
+        defaults,
+        kw_defaults,
         doc,
-        NULL,
-        0
+        function_table_keyboard,
+        sizeof(function_table_keyboard) / sizeof(function_impl_code)
     );
-
-    return (PyObject *)result;
 }
 
 static PyMethodDef _method_def_create_compiled_function = {
     "create_compiled_function",
     (PyCFunction)_create_compiled_function,
-    METH_VARARGS | METH_KEYWORDS, NULL
+    METH_VARARGS, NULL
 };
 
 
@@ -45399,12 +45309,29 @@ PyObject *modulecode_keyboard(PyThreadState *tstate, PyObject *module, struct Nu
         init_done = true;
     }
 
+#if defined(_NUITKA_MODULE) && 0
+    PyObject *pre_load = IMPORT_EMBEDDED_MODULE(tstate, "keyboard" "-preLoad");
+    if (pre_load == NULL) {
+        return NULL;
+    }
+#endif
+
     // PRINT_STRING("in initkeyboard\n");
 
     moduledict_keyboard = MODULE_DICT(module_keyboard);
 
 #ifdef _NUITKA_PLUGIN_DILL_ENABLED
-    registerDillPluginTables(tstate, loader_entry->name, &_method_def_reduce_compiled_function, &_method_def_create_compiled_function);
+    {
+        char const *module_name_c;
+        if (loader_entry != NULL) {
+            module_name_c = loader_entry->name;
+        } else {
+            PyObject *module_name = GET_STRING_DICT_VALUE(moduledict_keyboard, (Nuitka_StringObject *)const_str_plain___name__);
+            module_name_c = Nuitka_String_AsString(module_name);
+        }
+
+        registerDillPluginTables(tstate, module_name_c, &_method_def_reduce_compiled_function, &_method_def_create_compiled_function);
+    }
 #endif
 
     // Set "__compiled__" to what version information we have.
@@ -45641,6 +45568,8 @@ PyObject *modulecode_keyboard(PyThreadState *tstate, PyObject *module, struct Nu
             PyObject *hard_module = IMPORT_HARD_OS();
             if (likely(hard_module != NULL)) {
                 tmp_expression_value_1 = LOOKUP_ATTRIBUTE(tstate, hard_module, mod_consts[298]);
+
+
             } else {
                 tmp_expression_value_1 = NULL;
             }
@@ -45691,6 +45620,8 @@ PyObject *modulecode_keyboard(PyThreadState *tstate, PyObject *module, struct Nu
                 PyObject *hard_module = IMPORT_HARD_OS();
                 if (likely(hard_module != NULL)) {
                     tmp_expression_value_2 = LOOKUP_ATTRIBUTE(tstate, hard_module, mod_consts[300]);
+
+
                 } else {
                     tmp_expression_value_2 = NULL;
                 }
@@ -45885,7 +45816,16 @@ PyObject *modulecode_keyboard(PyThreadState *tstate, PyObject *module, struct Nu
         tmp_level_value_2 = mod_consts[90];
         frame_f2edceb792d6542f5fdcaf79d151b8e6->m_frame.f_lineno = 85;
         tmp_assign_source_8 = IMPORT_MODULE5(tstate, tmp_name_value_2, tmp_globals_arg_value_2, tmp_locals_arg_value_2, tmp_fromlist_value_2, tmp_level_value_2);
-        assert(!(tmp_assign_source_8 == NULL));
+        if (tmp_assign_source_8 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 85;
+
+            goto frame_exception_exit_1;
+        }
         UPDATE_STRING_DICT1(moduledict_keyboard, (Nuitka_StringObject *)mod_consts[154], tmp_assign_source_8);
     }
     {
@@ -46041,7 +45981,16 @@ PyObject *modulecode_keyboard(PyThreadState *tstate, PyObject *module, struct Nu
         tmp_level_value_5 = mod_consts[90];
         frame_f2edceb792d6542f5fdcaf79d151b8e6->m_frame.f_lineno = 88;
         tmp_assign_source_13 = IMPORT_MODULE5(tstate, tmp_name_value_5, tmp_globals_arg_value_5, tmp_locals_arg_value_5, tmp_fromlist_value_5, tmp_level_value_5);
-        assert(!(tmp_assign_source_13 == NULL));
+        if (tmp_assign_source_13 == NULL) {
+            assert(HAS_ERROR_OCCURRED(tstate));
+
+            FETCH_ERROR_OCCURRED(tstate, &exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 88;
+
+            goto frame_exception_exit_1;
+        }
         UPDATE_STRING_DICT1(moduledict_keyboard, (Nuitka_StringObject *)mod_consts[108], tmp_assign_source_13);
     }
     {
