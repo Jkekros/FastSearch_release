@@ -8,4 +8,5 @@ cscript /nologo %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 exit 
 :stop
-start FastSearch.exe
+set scriptPath=%~dp0
+start %scriptPath%FastSearch.exe
